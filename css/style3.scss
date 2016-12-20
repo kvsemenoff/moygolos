@@ -6,11 +6,13 @@
 @import "fonts.css";
 
 #map {
-    width: 100%;
+    width: 1170px;
     height: 554px;
+    margin: 10%;
 }
 
 .welcome {
+    width: 685px;
 
 	color: #383838;
 	font-family: Lato;
@@ -23,6 +25,8 @@
 }
 
 .address {
+	width: 685px;
+
 	color: #383838;
 	font-family: Lato;
 	font-weight: 800;
