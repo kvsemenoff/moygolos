@@ -8,7 +8,8 @@
 #map {
     width: 1170px;
     height: 554px;
-    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .welcome {
@@ -21,7 +22,10 @@
 
 	font-size: 34px;
 	line-height: 26px;
-	text-align: center;
+
+    @font-face {
+        src: url(fonts/pompadur.ttf); /* Путь к файлу со шрифтом */
+    }
 }
 
 .address {
@@ -34,7 +38,6 @@
 
 	font-size: 24px;
 	line-height: 50px;
-	text-align: center;	
 }
 
 @media only screen and (min-width : 320px) {
