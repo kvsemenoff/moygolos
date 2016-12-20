@@ -1,3 +1,14 @@
+
+
+<h2 class="welcome">ЖДЕМ ВАС В ГОСТИ :)</h2>
+
+<div>    
+    <img src="img/marker.png">
+    <span class="address">
+        ЕКАТЕРИНБУРГ, УЛ. ДЕКАБРИСТОВ 20, 4 ЭТАЖ, ОФИС 413
+    </span>
+<div>
+
 <div id="map"></div>
 <script>
 
