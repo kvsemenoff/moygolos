@@ -3,8 +3,8 @@
 
     var map;
 
-    var myLatLng = {lat: 59.940468, lng: 30.333598}
-    var myLatLng1 = {lat: 59.941016, lng: 30.333416}
+    var myLatLng = {lat: 56.824423, lng: 60.618930}
+    var myLatLng1 = {lat: 56.824617, lng: 60.621011}
 
     function initMap() {
       map = new google.maps.Map(document.getElementById('map'), {
@@ -12,12 +12,10 @@
         zoom: 16,
         scrollwheel:  false
       });
-
-      var image = 'img/dc-marker.png';
+      
       var marker = new google.maps.Marker({
         position: myLatLng,
         map: map,
-        icon: image
       });
 
     }
