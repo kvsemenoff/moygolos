@@ -9,13 +9,15 @@
     function initMap() {
       map = new google.maps.Map(document.getElementById('map'), {
         center: myLatLng1,
-        zoom: 16,
+        zoom: 17,
         scrollwheel:  false
       });
       
+      var image = "img/marker.png";
       var marker = new google.maps.Marker({
         position: myLatLng,
         map: map,
+        icon: image
       });
 
     }
