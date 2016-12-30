@@ -5,20 +5,31 @@
 @import "style4.css";
 @import "fonts.css";
 
-.dd-menu-wrap{
+.dd-header-wrap{
 	width: 100%;
 	// opacity: 0.1;
 	background:url(../img/headbg.jpg) no-repeat top center;
 	background-size:cover;
 	height: 300px; 
-	.dd-menu-container{
-		max-width: 1178px;
-		margin: 0 auto;
-		ul{
-			li{
-				display: inline-block;
-				a{
-
+	.dd-menu-wrap{
+		// opacity: 0.1;
+		// background: #fff;
+		background: black;
+		.dd-menu-container{
+			max-width: 1178px;
+			margin: 0 auto;
+			ul{
+				li{
+					display: inline-block;
+					a{
+						display: inline-block;
+						font-family: "MuseoSansCyrl1";
+						color:black;
+						font-size: 16px;
+						color:#fff;
+						opacity: 1;
+						z-index: 9999;
+					}
 				}
 			}
 		}
@@ -44,7 +55,7 @@
     //outline: 5px solid red;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-  
+
 }
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
 }
