@@ -35,7 +35,10 @@
 	<?php require_once('includes/napravlenia.php'); ?>
 	<?php require_once('includes/our-dating.php'); ?>
 	<?php require_once('includes/schedule.php'); ?>
+	<?php require_once('includes/how-result.php'); ?>
+	<?php require_once('includes/price.php'); ?>
 	<?php require_once('includes/sledite_za_nami.php'); ?>
+	<?php require_once('includes/vistuplenie.php'); ?>
 	
 	<?php require_once('includes/map.php'); ?>
 	
