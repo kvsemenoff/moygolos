@@ -36,8 +36,10 @@
 	text-transform: uppercase;
 
 	font-size: 34px;
-	line-height: 26px;
+    font-weight: 800;
+    line-height: 16px;    
 }
+
 
 .dc-address {
 	width: 685px;
@@ -114,6 +116,9 @@
     	display: none;
     	max-width: 80%;
     	table-layout: fixed;
+    	font-family: MuseoSansCyrl;
+        font-size: 18px;
+        line-height: 25px;
     }
 
     #dc-my_small_table {
@@ -137,6 +142,7 @@
 			font-family: "lato-heavy";
 		}
 	}
+
 
 
 @media only screen and (min-width : 320px) {
