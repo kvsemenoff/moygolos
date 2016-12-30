@@ -15,6 +15,21 @@
 }
 
 .welcome {
+	margin-top: 300px;
+    width: 685px;
+
+	color: #383838;
+	font-family: Lato;
+	font-weight: 800;
+	text-transform: uppercase;
+
+	font-size: 34px;
+	line-height: 26px;
+}
+
+.welcome_schedule {
+	margin-top: 50px;
+	margin-bottom: 50px;
     width: 685px;
 
 	color: #383838;
@@ -50,6 +65,14 @@
 }
 
 @media only screen and (min-width : 992px) {
+
+	.table_header {
+         background-color: #fef7be;
+	}
+
+	.schedule_table {
+        margin: 10% auto;
+	}
 }
 
 @media only screen and (min-width : 1248px) {
