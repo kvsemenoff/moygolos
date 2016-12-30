@@ -232,15 +232,19 @@
 	    <tr>
 	        <td>«Вокал»</td>
 	        <td>
-	            Среда &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 19:30 - 21:00<br>
-	            Суббота &nbsp&nbsp&nbsp 14:30 - 16:00
+	            Среда 
+	            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+	            19:30 - 21:00<br>
+	            Суббота 
+	            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+	            14:30 - 16:00
 	        </td>
 	    </tr>
 	    <tr class="small_table_row">
 	        <td>«Музыкальная грамотность»</td>
 	        <td>
-	            Понедельник &nbsp&nbsp&nbsp 19:30 - 21:00<br>
-	            Четверг &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 19:30 - 21:00
+	            Понедельник &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 19:30 - 21:00<br>
+	            Четверг &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 19:30 - 21:00
 	        </td>
 	    </tr>
 	    <tr>
@@ -248,8 +252,12 @@
                 Ораторское искусство»
 	        </td>
 	        <td>
-	            Вторник &nbsp&nbsp&nbsp 19:30 - 21:00<br>
-	            Пятница &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 19:30 - 21:00
+	            Вторник 
+	            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+	            19:30 - 21:00<br>
+	            Пятница 
+	            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+	            19:30 - 21:00
 	        </td>
 	    </tr>
 	    <tr class="small_table_row">
@@ -257,7 +265,8 @@
 	            «Актерская практика»
 	        </td>
 	        <td>
-	            Суббота &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 12:00 - 14:00
+	            Суббота 
+	            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 12:00 - 14:00
 	        </td>
 	    </tr>
 	    <tr>
@@ -309,7 +318,7 @@
             }
         }
 
-        setInterval(get_size, 3000);
+        setInterval(get_size, 1000);
     });
 
 </script>
