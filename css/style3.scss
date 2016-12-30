@@ -52,7 +52,7 @@
 	font-size: 24px;
 	line-height: 50px;
 	margin-bottom: 0 auto;
-	padding-bottom: 0 auto;
+	padding-bottom: 80px auto;
 
 	b {
 		font-size: 24px;
@@ -114,7 +114,7 @@
 
     #dc-my_table {
     	display: none;
-    	max-width: 80%;
+    	max-width: 100%;
     	table-layout: fixed;
     	font-family: MuseoSansCyrl;
         line-height: 25px;
@@ -130,6 +130,10 @@
 
     td, th {
         width: 5%;        
+    }
+
+    td {
+    	height: 35px;
     }
 
 	.dc-schedule {
@@ -158,6 +162,10 @@
 }
 
 @media only screen and (min-width : 992px) {
+
+    #dc-my_table {
+    	max-width: 80%;
+    }
 
 	.dc-table_header {
          background-color: #fef7be;
