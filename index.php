@@ -34,7 +34,11 @@
 
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/napravlenia.php'); ?>
+<<<<<<< HEAD
+	<?php require_once('includes/sledite_za_nami.php'); ?>
+=======
 	<?php require_once('includes/map.php'); ?>
+>>>>>>> 4911e3324a17832d14d649d505c67d8d3cc43898
 	<?php require_once('includes/footer.php'); ?>
 
 	

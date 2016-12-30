@@ -1,11 +1,13 @@
 
 
-<h2 class="welcome">ЖДЕМ ВАС В ГОСТИ :)</h2>
+<center><h2 class="welcome"><b>ЖДЕМ ВАС В ГОСТИ :)</b></h2></center>
 
-<div>    
-    <img src="img/marker.png">
+<div>        
     <span class="address">
-        ЕКАТЕРИНБУРГ, УЛ. ДЕКАБРИСТОВ 20, 4 ЭТАЖ, ОФИС 413
+        <center>        
+            <img src="img/marker.png">
+            <b>ЕКАТЕРИНБУРГ, УЛ. ДЕКАБРИСТОВ 20, 4 ЭТАЖ, ОФИС 413</b>
+        </center>
     </span>
 <div>
 
