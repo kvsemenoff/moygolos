@@ -2,14 +2,14 @@
 	<div class="dd-menu-wrap ">
 		<div class="dd-menu-container">
 			<ul class="dd-nav hidden-xs hidden-sm">
-				<li><a href="#">Главная</a></li>
-				<li><a href="#">Направления</a></li>
-				<li><a href="#">Преподаватели</a></li>
-				<li><a href="#">Фото с занятий</a></li>
-				<li><a href="#">Результаты</a></li>
-				<li><a href="#">Расписание<br> и стоимость </a></li>
-				<li><a href="#">Отзывы</a></li>
-				<li><a href="#">Контакты</a></li>
+				<li><a href="#" class="dd-borders">Главная</a></li>
+				<li><a href="#" class="dd-borders">Направления</a></li>
+				<li><a href="#" class="dd-borders">Преподаватели</a></li>
+				<li><a href="#" class="dd-borders">Фото с занятий</a></li>
+				<li><a href="#" class="dd-borders">Результаты</a></li>
+				<li><a href="#" class="dd-borders">Расписание<br> и стоимость </a></li>
+				<li><a href="#" class="dd-borders">Отзывы</a></li>
+				<li><a href="#" class="dd-borders">Контакты</a></li>
 			</ul>
 		</div>
 		
@@ -91,7 +91,7 @@
 							пробный урок, на котором вы 
 							получите индивидуальный<br>
 							план развития:<span>
-							
+
 							<input type="text" placeholder="Как вас зовут">
 							<input type="text" placeholder="Телефон">
 							<input type="text" placeholder="Email">
@@ -125,5 +125,14 @@
 				}
 				$(document).scroll(function(){
 					navigation_scroll();
+				});
+			</script>
+			
+			<script>
+				$(document).ready(function(){
+					$('.dd-nav li a').hover(function(){
+						$(this).parent().next('li').find('a').toggleClass('dd-borders');
+						//$(this).removeClass('dd-borders');
+					});
 				});
 			</script>
