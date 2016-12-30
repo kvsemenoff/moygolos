@@ -5,6 +5,9 @@
 @import "style4.css";
 @import "fonts.css";
 
+a:hover{
+	text-decoration:none !important;
+}
 /* Шапка и меню для декстопа
 =============================*/
 
@@ -12,7 +15,7 @@
 	width: 100%;
 	background:url(../img/headbg.jpg) no-repeat top center;
 	background-size:cover;
-	// height: 300px; 
+	height: 320px; 
 	.dd-menu-wrap{
 		background: rgba(#fff, 0.1);
 		.dd-menu-container{
@@ -104,8 +107,53 @@
 			}
 		}
 	}
+	.dd-header-bottom{
+		display: none;
+		max-width: 1178px;
+		margin: 0 auto;
+		.dd-big-logo{
+			float: left;
+		}
+		.dd-text{
+			float: left;
+			text-align:center;
+			padding-left: 50px;
+			span{
+				font-size: 23px;
+				font-family: "MyriadPro-Regular";
+				font-weight: 400;
+				color:#fff;
+				line-height: 49px;
+			}
+		}
+		.dd-big-phone{
+			text-align: right;
+			span{
+				font-family: "MuseoSansCyrl500";
+				color:#fff;
+				font-size: 26px;
+			}
+			a{
+				display: inline-block;
+				margin-top: 10px;
+				padding: 10px 40px;
+				border: 2px solid #fde841;
+				border-radius: 7px;
+				color: #fde841;
+				font-size: 16px;
+				font-family: "MuseoSansCyrl500";
+				transition: all 0.7s;
+				-moz-transition:all 0.7s;
+			}
+			a:hover{
+				background: #fde841;
+				color:#383838;
+			}
+		}
+	}
 	.dd-header-content{
-		max-width: 268px;
+		position:relative;
+		width: 268px;
 		margin: 0 auto;
 		padding-top: 14px;
 		.dd-title{
@@ -134,7 +182,7 @@
 		.dd-spisok{
 			padding-left: 18px;
 			padding-top: 48px;
-			outline: 1px solid red;
+			float: left;
 			ul{
 				li{
 					position:relative;
@@ -161,7 +209,7 @@
 				border-radius: 13px;
 				padding: 7px 26px;
 				text-transform: uppercase;
-				font-family: "MuseoSansCyrl1";
+				font-family: "MuseoSansCyrl900";
 				font-size: 14px;
 				color: #383838;
 				// margin-left: 34px;
@@ -169,6 +217,57 @@
 			}
 			a:hover{
 				text-decoration: none;
+			}
+		}
+		.dd-form{
+			display: none;
+			position:absolute;
+			right: -213px;
+			top: 245px;
+			border-radius: 10px;
+			background: rgba(#000000, 0.3);
+			width: 349px;
+			padding: 20px 30px;
+			.dd-tit{
+				text-align: center;
+				padding-bottom: 10px;
+				span{
+					font-size: 20px;
+					font-weight: 800;
+					font-family: "MyriadPro-Regular";
+					color:#fff;
+				}
+			}
+			.dd-spans{
+				text-align: center;
+				padding-bottom: 10px;
+				span{
+					font-size: 19px;
+					color:#fff;
+					font-family: "MuseoSansCyrl300";
+					span{
+						color:#FDE841;
+					}
+				}
+			}
+			input{
+				padding-left: 20px;
+				height: 40px;
+				width: 100%;
+				background-color: white;
+				border: 3px solid #29243E;
+				border-radius: 15px;
+				color: #686868;
+				font-family: "MuseoSansCyrl1";
+				margin-bottom: 15px;
+			}
+			.dd-sub{
+				padding-left: 0px !important;
+				border-radius: 15px;
+				background-color: #fde841;
+				text-transform: uppercase;
+				font-family: "MuseoSansCyrl500";
+				color: #383838;
 			}
 		}
 	}
@@ -362,7 +461,9 @@
 }
 
 @media only screen and (min-width : 768px) {
-
+	.dd-header-wrap{
+		height: 450px;
+	}
 	.anz-menu-ch{
 		top:10px;
 	}
@@ -389,7 +490,60 @@
 }
 
 @media only screen and (min-width : 992px) {
+	
+	.dd-header-wrap{
+		height: 860px;
+		.dd-header-bottom{
+			display: block;
 
+		}
+		.dd-header-content{
+			width: 707px;
+			margin: 0 auto;
+			padding-top: 74px;
+			.dd-title{
+				span{
+					font-size: 47px;
+					span{
+						padding-left: 6px;
+						font-size: 47px;
+						width: 200px;
+						background: url(../img/yellow2.png) no-repeat center;
+					}
+				}
+			}
+			.dd-slogan{
+				span{
+					font-size: 29px;
+				}
+			}
+			.dd-spisok{
+				padding-left: 18px;
+				padding-top: 85px;
+				ul{
+					li{
+						font-size: 22px;
+						padding-bottom: 20px;
+						span{
+							padding-left: 35px;
+						}
+					}
+					li:before{
+						background:  url(../img/galka2.png) no-repeat center;
+						width: 28px;
+						height: 28px;
+						top:0px;
+					}
+				}
+				a{
+					display: none;
+				}
+			}
+			.dd-form{
+				display: block;
+			}
+		}
+	}
 }
 
 @media only screen and (min-width : 1248px) {

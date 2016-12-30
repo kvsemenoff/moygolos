@@ -12,6 +12,7 @@
 				<li><a href="#">Контакты</a></li>
 			</ul>
 		</div>
+		
 		<div class="anz-menu hidden-lg hidden-md">
 			<div class="dd-logo"><img src="img/logo.png" alt=""></div>
 			<div class="dd-logo-2">
@@ -46,28 +47,58 @@
 			</div>
 		</div>
 	</div>
-	<div class="dd-header-content">
-		<div class="dd-title">
-			<span>Раскрой свой голос за <span>1 месяц</span></span>
+	<div class="dd-header-bottom">
+		<div class="dd-big-logo">
+			<img src="img/big-logo.png" alt="">
 		</div>
-		<div class="dd-slogan">
-			<span> С помощью авторской методики преподавания
-				от вокалистки с 15-летним опытом в музыке</span>
+		<div class="dd-text">
+
+			<span>Уроки вокала и речи в Екатеринбурге<br>
+				ул. Декабристов 20, офис 413</span>
 			</div>
-			<div class="dd-spisok">
-				<ul>
-				<li><span>Обучение в центре города</span></li>
-				<li><span>Различные направления</span></li>
-					<li><span>Групповые и индивидуальные
-						занятия</span></li>
+			<div class="dd-big-phone">
+				<span>8 (912) 627-10-04</span>
+				<a href="#">Заказать звонок</a>
+			</div>
+		</div>
+		
+		<div class="clearfix"></div>
+		<div class="dd-header-content">
+			<div class="dd-title">
+				<span>Раскрой свой голос за <span>1 месяц</span></span>
+			</div>
+			<div class="dd-slogan">
+				<span> С помощью авторской методики преподавания
+					от вокалистки с 15-летним опытом в музыке</span>
+				</div>
+				<div class="dd-spisok">
+					<ul>
+						<li><span>Обучение в центре города</span></li>
+						<li><span>Различные направления</span></li>
+						<li><span>Групповые и индивидуальные занятия</span></li>
 						<li><span>Дружеская атмосфера</span></li>
-						<li><span>Возможность выступить на
-							концерте</span></li>
-						</ul>
-						<a href="#">Получить приглашение</a>
+						<li><span>Возможность выступить на концерте</span></li>
+					</ul>
+					<a href="#">Получить приглашение</a>
+				</div>
+				<div class="dd-form">
+					<form action="#">
+						<div class="dd-tit">
+							<span>Заполните форму и получите</span>
+						</div>
+						<div class="dd-spans">
+							<span>Приглашение на <span>БЕСПЛАТНЫЙ</span> 
+							пробный урок, на котором вы 
+							получите индивидуальный<br>
+							план развития:<span>
+							
+							<input type="text" placeholder="Как вас зовут">
+							<input type="text" placeholder="Телефон">
+							<input type="text" placeholder="Email">
+							<input class="dd-sub" type="submit" value="Получить приглашение">
+						</form>
 					</div>
 				</div>
-
 			</section>
 
 
