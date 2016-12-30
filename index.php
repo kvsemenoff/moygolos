@@ -11,10 +11,8 @@
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
 	<link rel="stylesheet" href="libs/wow/animate.css">
 	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
-
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
@@ -34,11 +32,11 @@
 
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/napravlenia.php'); ?>
-<<<<<<< HEAD
+
 	<?php require_once('includes/sledite_za_nami.php'); ?>
-=======
+
 	<?php require_once('includes/map.php'); ?>
->>>>>>> 4911e3324a17832d14d649d505c67d8d3cc43898
+
 	<?php require_once('includes/footer.php'); ?>
 
 	
