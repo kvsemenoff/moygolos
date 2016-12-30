@@ -5,16 +5,15 @@
 @import "style4.css";
 @import "fonts.css";
 
-#map {
+#dc-map {
     width: 100%;
+    max-width: 100%;
     height: 554px;
-    margin-left: 10%;
-    margin-right: 10%;
     margin-top: 0 auto;
     padding-top: 0 auto;
 }
 
-.welcome {
+.dc-welcome {
 	margin-top: 300px;
     width: 685px;
 
@@ -27,9 +26,8 @@
 	line-height: 26px;
 }
 
-.welcome_schedule {
+.dc-welcome_schedule {
 	margin-top: 50px;
-	margin-bottom: 50px;
     width: 685px;
 
 	color: #383838;
@@ -38,10 +36,12 @@
 	text-transform: uppercase;
 
 	font-size: 34px;
-	line-height: 26px;
+    font-weight: 800;
+    line-height: 16px;    
 }
 
-.address {
+
+.dc-address {
 	width: 685px;
 
 	color: #383838;
@@ -52,8 +52,105 @@
 	font-size: 24px;
 	line-height: 50px;
 	margin-bottom: 0 auto;
-	padding-bottom: 0 auto;
+	padding-bottom: 80px auto;
+
+	b {
+		font-size: 24px;
+		color:#383838;
+		text-transform: uppercase;
+		text-align: center;	
+		margin: 25px 0 25px 0;	
+		font-family: "lato-heavy";
+	}
 }
+
+	.dc-table_header {
+         background-color: #fef7be;
+	}
+
+    .dc-table_header1 {
+        background-color: #2ba3fb;   
+    }
+
+    .dc-small_table_row {
+    	background-color: #f4faff;
+    }
+
+	.schedule_table {
+        margin: 10% auto;
+	}
+
+	.dc-cyan {
+		background-color: #00d2d4;
+	}
+
+	.dc-green {
+		background-color: #2cbd55;
+	}
+
+	.dc-blue {
+        background-color: #2ba3fb;
+	}
+
+	.dc-lilac {
+        background-color: #8d90fa;
+	}
+
+	.dc-red {
+		background-color: #ec7424;
+	}
+
+	.dc-orange {
+		background-color: #ff9d1e;
+	}
+
+	.dc-light_green {
+		background-color: #40bd84;
+	}
+
+	.dc-white_color {
+		color: white;
+	}
+
+    #dc-my_table {
+    	display: none;
+    	max-width: 100%;
+    	table-layout: fixed;
+    	font-family: MuseoSansCyrl;
+        line-height: 25px;
+    }
+
+    #dc-my_small_table {
+    	display: none;
+    	color: #383838;
+        font-family: MuseoSansCyrl;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    td, th {
+        width: 5%;        
+    }
+
+    td {
+    	height: 35px;
+    }
+
+	.dc-schedule {
+		text-align: center;
+		margin: 0 auto;
+		font-family: "lato-heavy";
+		h3{
+			font-size: 34px;
+			color:#383838;
+			text-transform: uppercase;
+			text-align: center;	
+			margin: 25px 0 25px 0;	
+			font-family: "lato-heavy";
+		}
+	}
+
+
 
 @media only screen and (min-width : 320px) {
 }
@@ -66,43 +163,47 @@
 
 @media only screen and (min-width : 992px) {
 
-	.table_header {
+    #dc-my_table {
+    	max-width: 80%;
+    }
+
+	.dc-table_header {
          background-color: #fef7be;
 	}
 
-	.schedule_table {
+	.dc-schedule_table {
         margin: 10% auto;
 	}
 
-	.cyan {
+	.dc-cyan {
 		background-color: #00d2d4;
 	}
 
-	.green {
+	.dc-green {
 		background-color: #2cbd55;
 	}
 
-	.blue {
+	.dc-blue {
         background-color: #2ba3fb;
 	}
 
-	.lilac {
+	.dc-lilac {
         background-color: #8d90fa;
 	}
 
-	.red {
+	.dc-red {
 		background-color: #ec7424;
 	}
 
-	.orange {
+	.dc-orange {
 		background-color: #ff9d1e;
 	}
 
-	.light_green {
+	.dc-light_green {
 		background-color: #40bd84;
 	}
 
-	.white_color {
+	.dc-white_color {
 		color: white;
 	}
 }
