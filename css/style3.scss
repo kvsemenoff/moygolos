@@ -6,7 +6,8 @@
 @import "fonts.css";
 
 #map {
-    width: 100%;
+    width: 80%;
+    max-width: 80%;
     height: 554px;
     margin-left: 10%;
     margin-right: 10%;
@@ -29,7 +30,6 @@
 
 .welcome_schedule {
 	margin-top: 50px;
-	margin-bottom: 50px;
     width: 685px;
 
 	color: #383838;
@@ -53,6 +53,15 @@
 	line-height: 50px;
 	margin-bottom: 0 auto;
 	padding-bottom: 0 auto;
+
+	b {
+		font-size: 24px;
+		color:#383838;
+		text-transform: uppercase;
+		text-align: center;	
+		margin: 25px 0 25px 0;	
+		font-family: "lato-heavy";
+	}
 }
 
 	.table_header {
@@ -116,6 +125,20 @@
     td, th {
         width: 5%;        
     }
+
+	.dc-schedule {
+		text-align: center;
+		margin: 0 auto;
+		font-family: "lato-heavy";
+		h3{
+			font-size: 34px;
+			color:#383838;
+			text-transform: uppercase;
+			text-align: center;	
+			margin: 25px 0 25px 0;	
+			font-family: "lato-heavy";
+		}
+	}
 
 
 @media only screen and (min-width : 320px) {

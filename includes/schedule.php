@@ -4,7 +4,14 @@
 
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
-<center><h2 class="welcome_schedule"><b>НАШЕ РАСПИСАНИЕ</b></h2></center>
+
+<div class="dc-schedule">
+    <center>
+        <h3 class="welcome_schedule">
+            <b>НАШЕ РАСПИСАНИЕ</b>
+        </h3>
+    </center>
+</div>
 
 <table id="my_table" class="table table-responsive table-bordered schedule_table">
     <thead>
@@ -304,15 +311,16 @@
         function get_size(){
         	var width = $( window  ).width();
             var height = $( window  ).height();
+            console.log(width, height);
 
             // Скрыть большую таблицу при маленьком экране
-            if (width < MIN_WIDTH || height < MIN_HEIGHT) {
+            if (width < MIN_WIDTH || height < MIN_HEIGHT) {console.log('s');
                 $("#my_table").hide();
                 $("#my_small_table").show();
             }
 
             // Показать большую таблицу при большом экране
-            if (width >= MIN_WIDTH && height >= MIN_HEIGHT) {
+            if (width >= MIN_WIDTH && height >= MIN_HEIGHT) {console.log('b');
             	$("#my_small_table").hide();
                 $("#my_table").show();
             }

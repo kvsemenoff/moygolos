@@ -1,6 +1,15 @@
 
 
-<center><h2 class="welcome"><b>ЖДЕМ ВАС В ГОСТИ :)</b></h2></center>
+
+<div class="dc-schedule">
+    <center>
+        <h3 class="welcome">
+            <b>ЖДЕМ ВАС В ГОСТИ :)</b>
+        </h3>
+    </center>
+</div>
+
+
 
     <span class="address">
         <center>        
