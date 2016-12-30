@@ -4,7 +4,37 @@
 @import "style3.css";
 @import "style4.css";
 @import "fonts.css";
+.db-all-content{
+text-align:center;
 
+font-family: Lato;
+	.db-all-content-block{
+		font-size: 26px;
+		font-weight: 800;
+		line-height: 17px;
+		color: #383838;
+		text-transform: uppercase;
+		max-width:725px;
+		margin:0 auto;
+		outline:1px solid red;
+		.db-h-content{
+			outline:1px solid red;
+			padding-top:21px;
+		}
+		.db-block-one{
+			outline:1px solid red;
+			margin:0 auto;
+			
+			padding:21px 0;
+		}
+		.db-block-two{
+			outline:1px solid red;
+			margin:0 auto;
+		
+			padding:21px 0;
+		}
+	}
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -15,6 +45,26 @@
 }
 
 @media only screen and (min-width : 992px) {
+
+	.db-all-content{
+	.db-all-content-block{
+		max-width:725px;
+		margin:0 auto;
+		outline:1px solid red;
+		.db-h-content{
+			outline:1px solid red;
+		}
+		.db-block-one{
+			outline:1px solid red;
+			float:left;
+		}
+		.db-block-two{
+			outline:1px solid red;
+			float:right;
+		}
+	}
+}
+
 }
 
 @media only screen and (min-width : 1248px) {

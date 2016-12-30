@@ -6,15 +6,13 @@
 	<title>Главная</title>
 
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
-	<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+	<!-- <link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet"> -->
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
 	<link rel="stylesheet" href="libs/wow/animate.css">
 	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
-
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
@@ -34,6 +32,11 @@
 
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/napravlenia.php'); ?>
+	<?php require_once('includes/schedule.php'); ?>
+	<?php require_once('includes/sledite_za_nami.php'); ?>
+	/*
+	<?php require_once('includes/map.php'); ?>
+	*/
 	<?php require_once('includes/footer.php'); ?>
 
 	
