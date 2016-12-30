@@ -45,7 +45,7 @@
 			<div class="df-img-box">
 				<img src="img/df-img5.png" alt="">
 				<div><span>Голосовая
-					практика 
+					практика <br>
 				с медитацией</span></div>
 			</div>
 			<a href="#" class="df-link">Получить приглашение</a>
