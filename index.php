@@ -32,11 +32,11 @@
 
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/napravlenia.php'); ?>
-
+	<?php require_once('includes/schedule.php'); ?>
 	<?php require_once('includes/sledite_za_nami.php'); ?>
-
+	/*
 	<?php require_once('includes/map.php'); ?>
-
+	*/
 	<?php require_once('includes/footer.php'); ?>
 
 	
