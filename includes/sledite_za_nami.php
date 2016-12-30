@@ -8,7 +8,7 @@
 					<script type="text/javascript" src="//vk.com/js/api/openapi.js?136"></script>
 					<div id="vk_groups"></div>
 					<script type="text/javascript" class="db-block-script">
-						VK.Widgets.Group("vk_groups", {mode: 3, width: "510"}, 84915901);
+						VK.Widgets.Group("vk_groups", {mode: 3, width: "510", height: "250"}, 84915901);
 					</script>
 				</div>
 			

@@ -7,7 +7,7 @@
 .db-all-content{
 text-align:center;
 
-font-family: Lato;
+font-family: "lato-heavy";
 	.db-all-content-block{
 		font-size: 26px;
 		font-weight: 800;
@@ -16,14 +16,15 @@ font-family: Lato;
 		text-transform: uppercase;
 		max-width:1100px;
 		margin:0 auto;
-		outline:1px solid red;
+		// outline:1px solid red;
 		.db-h-content{
-			outline:1px solid red;
+			// outline:1px solid red;
 			padding-top:21px;
 			padding-bottom:65px;
+			padding-left:10px;
 		}
 		.db-block-one{
-			outline:1px solid red;
+			// outline:1px solid red;
 			padding:21px 0;
 			text-align: center;
 			.db-block-script{
@@ -31,9 +32,12 @@ font-family: Lato;
 			}
 		}
 		.db-block-two{
-			outline:1px solid red;
+			// outline:1px solid red;
 			margin:0 auto;
 			padding:21px 0;
+			img{
+				width:510px;
+			}
 			
 		}
 	}
@@ -53,16 +57,17 @@ font-family: Lato;
 	.db-all-content-block{
 		
 		margin:0 auto;
-		outline:1px solid red;
+		// outline:1px solid red;
 		.db-h-content{
-			outline:1px solid red;
+			// outline:1px solid red;
 		}
 		.db-block-one{
-			outline:1px solid red;
+			// outline:1px solid red;
+			    padding-left: 16px;
 			float:left;
 		}
 		.db-block-two{
-			outline:1px solid red;
+			// outline:1px solid red;
 			float:right;
 		}
 	}
