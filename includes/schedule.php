@@ -184,11 +184,26 @@
         <td></td>
     </tr>
     <tr>
-        <td rowspan="3" class="orange"></td>
-        <td rowspan="3" class="light_green"></td>
-        <td rowspan="3" class="blue"></td>
-        <td rowspan="3" class="orange"></td>
-        <td rowspan="3" class="light_green"></td>
+        <td rowspan="3" class="orange white_color">
+            <center>19:30 - 21:00</center>
+            <center>Музыкальная<br>грамотность</center>        	
+        </td>
+        <td rowspan="3" class="light_green white_color">
+            <center>19:30 - 21:00</center>
+            <center>Техника речи<br>и ораторское<br>искусство</center>        	
+        </td>
+        <td rowspan="3" class="blue white_color">
+            <center>19:30 - 21:00</center>
+            <center>Вокал</center>        	
+        </td>
+        <td rowspan="3" class="orange white_color">
+            <center>19:30 - 21:00</center>
+            <center>Музыкальная<br>грамотность</center>        	
+        </td>
+        <td rowspan="3" class="light_green white_color">
+            <center>19:30 - 21:00</center>
+            <center>Техника речи<br>и ораторское<br>искусство</center>
+        </td>
         <td></td>
         <td></td>
     </tr>
