@@ -42,22 +42,3 @@
 		<div class="clear"></div>
 	</div>
 </div>
-
-<script>
-$(document).ready(function() {
-	$('.df-img-little a').click(function(evt){
-		evt.preventDefault();
-		var imgPath = $(this).attr('href');
-		var oldImg = $('.df-img2 img');
-		var newImg = $('<img src=" '+ imgPath +' ">');
-		newImg.hide();
-		$('.df-img2').append(newImg);
-		newImg.fadeIn(300);
-
-		oldImg.slideDown(200, function(){
-			$(this).remove();
-		});
-	});
-	$('.df-img-little a:first').click();
-});
-</script>
