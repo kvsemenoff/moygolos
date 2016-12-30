@@ -3,7 +3,7 @@
 
 <div class="dc-schedule">
     <center>
-        <h3 class="welcome">
+        <h3 class="dc-welcome">
             <b>ЖДЕМ ВАС В ГОСТИ :)</b>
         </h3>
     </center>
@@ -11,7 +11,7 @@
 
 
 
-    <span class="address">
+    <span class="dc-address">
         <center>        
             <img src="img/marker.png">
             <b>ЕКАТЕРИНБУРГ, УЛ. ДЕКАБРИСТОВ 20, 4 ЭТАЖ, ОФИС 413</b>
@@ -19,7 +19,8 @@
     </span>
 
 
-<div id="map"></div>
+<div id="dc-map"></div>
+
 <script>
 
     var map;
@@ -28,7 +29,7 @@
     var myLatLng1 = {lat: 56.824617, lng: 60.621011}
 
     function initMap() {
-      map = new google.maps.Map(document.getElementById('map'), {
+      map = new google.maps.Map(document.getElementById('dc-map'), {
         center: myLatLng1,
         zoom: 17,
         scrollwheel:  false

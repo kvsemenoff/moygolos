@@ -5,7 +5,7 @@
 @import "style4.css";
 @import "fonts.css";
 
-#map {
+#dc-map {
     width: 80%;
     max-width: 80%;
     height: 554px;
@@ -15,7 +15,7 @@
     padding-top: 0 auto;
 }
 
-.welcome {
+.dc-welcome {
 	margin-top: 300px;
     width: 685px;
 
@@ -28,7 +28,7 @@
 	line-height: 26px;
 }
 
-.welcome_schedule {
+.dc-welcome_schedule {
 	margin-top: 50px;
     width: 685px;
 
@@ -41,7 +41,7 @@
 	line-height: 26px;
 }
 
-.address {
+.dc-address {
 	width: 685px;
 
 	color: #383838;
@@ -64,15 +64,15 @@
 	}
 }
 
-	.table_header {
+	.dc-table_header {
          background-color: #fef7be;
 	}
 
-    .table_header1 {
+    .dc-table_header1 {
         background-color: #2ba3fb;   
     }
 
-    .small_table_row {
+    .dc-small_table_row {
     	background-color: #f4faff;
     }
 
@@ -80,45 +80,45 @@
         margin: 10% auto;
 	}
 
-	.cyan {
+	.dc-cyan {
 		background-color: #00d2d4;
 	}
 
-	.green {
+	.dc-green {
 		background-color: #2cbd55;
 	}
 
-	.blue {
+	.dc-blue {
         background-color: #2ba3fb;
 	}
 
-	.lilac {
+	.dc-lilac {
         background-color: #8d90fa;
 	}
 
-	.red {
+	.dc-red {
 		background-color: #ec7424;
 	}
 
-	.orange {
+	.dc-orange {
 		background-color: #ff9d1e;
 	}
 
-	.light_green {
+	.dc-light_green {
 		background-color: #40bd84;
 	}
 
-	.white_color {
+	.dc-white_color {
 		color: white;
 	}
 
-    #my_table {
+    #dc-my_table {
     	display: none;
     	max-width: 80%;
     	table-layout: fixed;
     }
 
-    #my_small_table {
+    #dc-my_small_table {
     	display: none;
     }
 
@@ -152,43 +152,43 @@
 
 @media only screen and (min-width : 992px) {
 
-	.table_header {
+	.dc-table_header {
          background-color: #fef7be;
 	}
 
-	.schedule_table {
+	.dc-schedule_table {
         margin: 10% auto;
 	}
 
-	.cyan {
+	.dc-cyan {
 		background-color: #00d2d4;
 	}
 
-	.green {
+	.dc-green {
 		background-color: #2cbd55;
 	}
 
-	.blue {
+	.dc-blue {
         background-color: #2ba3fb;
 	}
 
-	.lilac {
+	.dc-lilac {
         background-color: #8d90fa;
 	}
 
-	.red {
+	.dc-red {
 		background-color: #ec7424;
 	}
 
-	.orange {
+	.dc-orange {
 		background-color: #ff9d1e;
 	}
 
-	.light_green {
+	.dc-light_green {
 		background-color: #40bd84;
 	}
 
-	.white_color {
+	.dc-white_color {
 		color: white;
 	}
 }

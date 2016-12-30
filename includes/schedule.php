@@ -7,23 +7,23 @@
 
 <div class="dc-schedule">
     <center>
-        <h3 class="welcome_schedule">
+        <h3 class="dc-welcome_schedule">
             <b>НАШЕ РАСПИСАНИЕ</b>
         </h3>
     </center>
 </div>
 
-<table id="my_table" class="table table-responsive table-bordered schedule_table">
+<table id="dc-my_table" class="table table-responsive table-bordered dc-schedule_table">
     <thead>
     <tr>
-        <th class="table_header">Время</th>
-        <th class="table_header">Понедельник</th>
-        <th class="table_header">Вторник</th>
-        <th class="table_header">Среда</th>
-        <th class="table_header">Четверг</th>
-        <th class="table_header">Пятница</th>
-        <th class="table_header">Суббота</th>
-        <th class="table_header">Воскресенье</th>
+        <th class="dc-table_header">Время</th>
+        <th class="dc-table_header">Понедельник</th>
+        <th class="dc-table_header">Вторник</th>
+        <th class="dc-table_header">Среда</th>
+        <th class="dc-table_header">Четверг</th>
+        <th class="dc-table_header">Пятница</th>
+        <th class="dc-table_header">Суббота</th>
+        <th class="dc-table_header">Воскресенье</th>
     </tr>
     </thead>
     <tbody>
@@ -53,11 +53,11 @@
         <td></td>
         <td></td>
         <td></td>
-        <td rowspan="4" class="cyan white_color">
+        <td rowspan="4" class="dc-cyan dc-white_color">
             <center>12:00 - 14:00</center>
             <center>Актерская<br>практика</center>
         </td>
-        <td rowspan="4" class="green white_color">
+        <td rowspan="4" class="dc-green dc-white_color">
             <center>12:00 - 14:00</center>
             <center>Творчество<br>личности</center>
         </td>
@@ -100,11 +100,11 @@
         <td></td>
         <td></td>
         <td></td>
-        <td rowspan="3" class="blue white_color">
+        <td rowspan="3" class="dc-blue dc-white_color">
             <center>14:30 - 16:00</center>
             <center>Вокал</center>
         </td>
-        <td rowspan="3" class="lilac white_color">
+        <td rowspan="3" class="dc-lilac dc-white_color">
             <center>14:30 - 16:00</center>
             <center>Голосовая<br>практика<br>с медитацией</center>
         </td>
@@ -141,7 +141,7 @@
         <td></td>
         <td></td>
         <td></td>
-        <td rowspan="3" class="red white_color">
+        <td rowspan="3" class="dc-red dc-white_color">
             <center>16:30 - 18:00</center>
             <center>Свобода<br>движения</center>
         </td>
@@ -193,23 +193,23 @@
         <td></td>
     </tr>
     <tr>
-        <td rowspan="3" class="orange white_color">
+        <td rowspan="3" class="dc-orange dc-white_color">
             <center>19:30 - 21:00</center>
             <center>Музыкальная<br>грамотность</center>        	
         </td>
-        <td rowspan="3" class="light_green white_color">
+        <td rowspan="3" class="dc-light_green dc-white_color">
             <center>19:30 - 21:00</center>
             <center>Техника речи<br>и ораторское<br>искусство</center>        	
         </td>
-        <td rowspan="3" class="blue white_color">
+        <td rowspan="3" class="dc-blue dc-white_color">
             <center>19:30 - 21:00</center>
             <center>Вокал</center>        	
         </td>
-        <td rowspan="3" class="orange white_color">
+        <td rowspan="3" class="dc-orange dc-white_color">
             <center>19:30 - 21:00</center>
             <center>Музыкальная<br>грамотность</center>        	
         </td>
-        <td rowspan="3" class="light_green white_color">
+        <td rowspan="3" class="dc-light_green dc-white_color">
             <center>19:30 - 21:00</center>
             <center>Техника речи<br>и ораторское<br>искусство</center>
         </td>
@@ -228,11 +228,11 @@
     </tbody>
 </table>
 
-<table id="my_small_table" class="table table-responsive table-bordered schedule_table">
+<table id="dc-my_small_table" class="table table-responsive table-bordered dc-schedule_table">
     <thead>
 	    <tr>
-	        <th class="table_header1">Название курса</th>
-	        <th class="table_header1">Дата и время</th>
+	        <th class="dc-table_header1">Название курса</th>
+	        <th class="dc-table_header1">Дата и время</th>
 	    </tr>
     </thead>
     <tbody>
@@ -247,7 +247,7 @@
 	            14:30 - 16:00
 	        </td>
 	    </tr>
-	    <tr class="small_table_row">
+	    <tr class="dc-small_table_row">
 	        <td>«Музыкальная грамотность»</td>
 	        <td>
 	            Понедельник &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 19:30 - 21:00<br>
@@ -267,7 +267,7 @@
 	            19:30 - 21:00
 	        </td>
 	    </tr>
-	    <tr class="small_table_row">
+	    <tr class="dc-small_table_row">
 	        <td>
 	            «Актерская практика»
 	        </td>
@@ -284,7 +284,7 @@
 	            Воскресенье &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 12:00 - 14:00
 	        </td>
 	    </tr>
-	    <tr class="small_table_row">
+	    <tr class="dc-small_table_row">
 	        <td>
 	            «Голосовая практика»
 	        </td>
@@ -315,14 +315,14 @@
 
             // Скрыть большую таблицу при маленьком экране
             if (width < MIN_WIDTH || height < MIN_HEIGHT) {console.log('s');
-                $("#my_table").hide();
-                $("#my_small_table").show();
+                $("#dc-my_table").hide();
+                $("#dc-my_small_table").show();
             }
 
             // Показать большую таблицу при большом экране
             if (width >= MIN_WIDTH && height >= MIN_HEIGHT) {console.log('b');
-            	$("#my_small_table").hide();
-                $("#my_table").show();
+            	$("#dc-my_small_table").hide();
+                $("#dc-my_table").show();
             }
         }
 
