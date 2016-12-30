@@ -5,8 +5,7 @@
 //===napravlenia
 .my-container{
 	max-width: 1190px !important;
-	width: 100%;
-	outline: 1px solid blue;
+	width: 100%;	
 	margin: 0 auto;
 }
 .df-napravlenia{
@@ -24,15 +23,14 @@
 	.df-img{
 		display: inline-block;
 		width: 220px;
-		height: 349px;
+		height: 350px;
 		position: relative;
-		margin:0 15px 20px 0;	
-			
+		margin:0 15px 20px 0;
+		overflow: hidden;				
 		.df-img-box{
 			text-align: center;	
 			margin: 0 auto;
-			vertical-align: middle;
-			
+			vertical-align: middle;			
 			img{
 				width: 100%;
 				height: 100%;
@@ -47,7 +45,7 @@
 				font-size: 22px;
 				color:#fff;				
 				text-transform: uppercase;	
-				padding: 15px 0;
+				// padding: 15px 0;
 				width: 100%;
 				height: 115px;
 				z-index: 100;
@@ -61,11 +59,13 @@
 		}
 		.df-link{
 			color:#383838;
+			font-family: "MuseoSansCyrl1";
+			font-weight: 500;
 			font-size: 14px;
 			background: #fde841;
 			text-transform: uppercase;
-			padding: 5px 5px;
-			width: 195px;
+			padding: 5px 3px;
+			width: 203px;
 			display:none;
 			border-radius: 10px;		
 			position: absolute;
@@ -82,8 +82,8 @@
 			width: 100%;
 			text-align: center;			
 			height: 115px;
-			background: #1b88db;
-			opacity: 0.5;
+			opacity: 0.89;
+			background-color: #108ce8;
 			transition:all 0.7s;
 			-moz-transition:all 0.7s;
 		}
@@ -107,30 +107,39 @@
 	display: table;
 	div{
 		width: 302px;
-		height: 183px;
-		display: table-cell;
+		height: 183px;	
+		color:#fff;
+		display: inline-block;
+		margin-right: 135px;
+		padding-top:30px;
+		text-align: center;	
+		vertical-align: middle;
+		// display: table-cell;
 		background-image: url("../img/df-bg-two.png");
 		background-position: center center;
-		background-repeat: no-repeat;
-		text-align: center;
-		vertical-align: middle;
-		color:#fff;
-		.df-t1{
+		background-repeat: no-repeat;		
+			.df-t1{
 			font-size: 82px;
-			line-height: 24.89px;
+			line-height: 69px;
 			display: block;
 			font-family: "lato-heavy";
 		}
 		.df-t2{
 			font-size: 49px;
-			line-height: 36px;
+			line-height: 29px;
 			display: block;
+			 font-family: "MuseoSansCyrl300";
+
 		}
 		.df-t3{
 			font-size: 21px;
 			line-height: 25px;
 			display: block;
+			font-family: "lato-medium";
 		}
+	}
+	div:last-child{
+		margin-right: 0;
 	}
 }
 
