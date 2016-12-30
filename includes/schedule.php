@@ -326,7 +326,7 @@
             }
         }
 
-        setInterval(get_size, 1000);
+        setInterval(get_size, 500);
     });
 
 </script>

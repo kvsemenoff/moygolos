@@ -118,6 +118,7 @@
     	table-layout: fixed;
     	font-family: MuseoSansCyrl;
         line-height: 25px;
+        margin: 0 auto;
     }
 
     #dc-my_small_table {
@@ -206,6 +207,25 @@
 	.dc-white_color {
 		color: white;
 	}
+
+	#dc-my_table {
+    	max-width: 1170px;
+    	margin: 0 auto;
+    	table-layout: fixed;
+    	font-family: MuseoSansCyrl;
+        line-height: 25px;
+        font-size: 18px;        
+    }
+
+    td, th {
+        width: 3%;        
+    }
+
+    #dc-map {
+    	max-width: 1170px;
+    	margin: 0 auto;
+	    height: 557px;
+    }
 }
 
 @media only screen and (min-width : 1248px) {
