@@ -250,7 +250,7 @@
 	    <tr class="dc-small_table_row">
 	        <td>«Музыкальная грамотность»</td>
 	        <td>
-	            Понедельник &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 19:30 - 21:00<br>
+	            Понедельник &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 19:30 - 21:00<br>
 	            Четверг &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 19:30 - 21:00
 	        </td>
 	    </tr>
