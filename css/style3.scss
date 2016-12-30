@@ -106,11 +106,17 @@
     #my_table {
     	display: none;
     	max-width: 80%;
+    	table-layout: fixed;
     }
 
     #my_small_table {
     	display: none;
     }
+
+    td, th {
+        width: 5%;        
+    }
+
 
 @media only screen and (min-width : 320px) {
 }
