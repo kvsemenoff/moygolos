@@ -5,8 +5,7 @@
 //===napravlenia
 .my-container{
 	max-width: 1190px !important;
-	width: 100%;
-	outline: 1px solid blue;
+	width: 100%;	
 	margin: 0 auto;
 }
 .df-napravlenia{
@@ -108,24 +107,29 @@
 	display: table;
 	div{
 		width: 302px;
-		height: 183px;
-		display: table-cell;
+		height: 183px;	
+		color:#fff;
+		display: inline-block;
+		margin-right: 135px;
+		padding-top:30px;
+		text-align: center;	
+		vertical-align: middle;
+		// display: table-cell;
 		background-image: url("../img/df-bg-two.png");
 		background-position: center center;
-		background-repeat: no-repeat;
-		text-align: center;
-		vertical-align: middle;
-		color:#fff;
-		.df-t1{
+		background-repeat: no-repeat;		
+			.df-t1{
 			font-size: 82px;
-			line-height: 24.89px;
+			line-height: 69px;
 			display: block;
 			font-family: "lato-heavy";
 		}
 		.df-t2{
 			font-size: 49px;
-			line-height: 36px;
+			line-height: 29px;
 			display: block;
+			 font-family: "MuseoSansCyrl300";
+
 		}
 		.df-t3{
 			font-size: 21px;
@@ -133,6 +137,9 @@
 			display: block;
 			font-family: "lato-medium";
 		}
+	}
+	div:last-child{
+		margin-right: 0;
 	}
 }
 
