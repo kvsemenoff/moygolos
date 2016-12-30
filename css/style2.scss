@@ -2,18 +2,15 @@
 
 .db-block-sledite{
 	font-family:"lato-heavy";
-	font-weight:800px;
-	font-size:15px;
 	text-align:center;
 	// outline: 1px solid red;
 	padding:20px 0;
 	.db-block-sledite-one{
 	// outline: 1px solid red;
-	padding-bottom:54px;
-	padding-right:10px;
+padding: 0 6px 54px 5px;
 		color: #383838;
 	
-font-size: 15px;
+font-size: 16px;
 font-weight: 800;
 	}
 	.db-block-sledite-two{ 
@@ -80,11 +77,10 @@ font-family: "lato-heavy";
 	.db-block-sledite-one{
 
 	// outline: 1px solid red;
-	padding-bottom:54px;
-	padding-right:10px;
+    padding: 0 99px 54px 108px !important;
 		color: #383838;
-font-size: 28px !important;
-font-weight: 800;
+font-size:28px !important;
+font-weight:800px;
 	}
 		.db-block-sledite-two{ 
 		height:632px !important;
