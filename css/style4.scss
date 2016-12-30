@@ -5,6 +5,26 @@
 @import "style4.css";
 @import "fonts.css";
 
+.dd-menu-wrap{
+	width: 100%;
+	// opacity: 0.1;
+	background:url(../img/headbg.jpg) no-repeat top center;
+	background-size:cover;
+	height: 300px; 
+	.dd-menu-container{
+		max-width: 1178px;
+		margin: 0 auto;
+		ul{
+			li{
+				display: inline-block;
+				a{
+
+				}
+			}
+		}
+	}
+}
+
 @media only screen and (min-width : 320px) {
 }
 
