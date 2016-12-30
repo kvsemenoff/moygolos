@@ -87,12 +87,3 @@
 		
 	</div>
 </div>		
-<script>
-	$(function() {
-		$('.df-img').hover(function(){
-			$('.df-link', this).stop().fadeIn(1100);
-		},function(){
-			$('.df-link', this).stop().fadeOut(0);
-		});
-	});
-</script>
