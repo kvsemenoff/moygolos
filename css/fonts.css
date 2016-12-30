@@ -5,3 +5,16 @@
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: "lato-heavy";
+  src: url("../fonts/lato-heavy/lato-heavy.eot");
+  src: local("☺"), url("../fonts/lato-heavy/lato-heavy.woff") format("woff"), url("../fonts/lato-heavy/lato-heavy.ttf") format("truetype"), url("../fonts/lato-heavy/lato-heavy.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+  @font-face {
+  font-family: "lato-medium";
+  src: url("../fonts/lato-medium/Lato-Medium.eot");
+  src: local("☺"), url("../fonts/lato-medium/Lato-Medium.woff") format("woff"), url("../fonts/lato-medium/Lato-Medium.ttf") format("truetype"), url("../fonts/lato-medium/Lato-Medium.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }

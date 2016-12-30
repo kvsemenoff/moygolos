@@ -44,8 +44,14 @@
         <td></td>
         <td></td>
         <td></td>
-        <td rowspan="4" class="cyan"></td>
-        <td rowspan="4" class="green"></td>
+        <td rowspan="4" class="cyan white_color">
+            <center>12:00 - 14:00</center>
+            <center>Актерская<br>практика</center>
+        </td>
+        <td rowspan="4" class="green white_color">
+            <center>12:00 - 14:00</center>
+            <center>Творчество<br>личности</center>
+        </td>
     </tr>
     <tr>
         <td></td>
@@ -85,8 +91,14 @@
         <td></td>
         <td></td>
         <td></td>
-        <td rowspan="3"></td>
-        <td rowspan="3"></td>
+        <td rowspan="3" class="blue white_color">
+            <center>14:30 - 16:00</center>
+            <center>Вокал</center>
+        </td>
+        <td rowspan="3" class="lilac white_color">
+            <center>14:30 - 16:00</center>
+            <center>Голосовая<br>практика<br>с медитацией</center>
+        </td>
     </tr>
     <tr>
         <td rowspan="2">15:00</td>
@@ -120,7 +132,10 @@
         <td></td>
         <td></td>
         <td></td>
-        <td rowspan="3"></td>
+        <td rowspan="3" class="red white_color">
+            <center>16:30 - 18:00</center>
+            <center>Свобода<br>движения</center>
+        </td>
     </tr>
     <tr>
         <td rowspan="2">17:00</td>
@@ -169,11 +184,26 @@
         <td></td>
     </tr>
     <tr>
-        <td rowspan="3"></td>
-        <td rowspan="3"></td>
-        <td rowspan="3"></td>
-        <td rowspan="3"></td>
-        <td rowspan="3"></td>
+        <td rowspan="3" class="orange white_color">
+            <center>19:30 - 21:00</center>
+            <center>Музыкальная<br>грамотность</center>        	
+        </td>
+        <td rowspan="3" class="light_green white_color">
+            <center>19:30 - 21:00</center>
+            <center>Техника речи<br>и ораторское<br>искусство</center>        	
+        </td>
+        <td rowspan="3" class="blue white_color">
+            <center>19:30 - 21:00</center>
+            <center>Вокал</center>        	
+        </td>
+        <td rowspan="3" class="orange white_color">
+            <center>19:30 - 21:00</center>
+            <center>Музыкальная<br>грамотность</center>        	
+        </td>
+        <td rowspan="3" class="light_green white_color">
+            <center>19:30 - 21:00</center>
+            <center>Техника речи<br>и ораторское<br>искусство</center>
+        </td>
         <td></td>
         <td></td>
     </tr>
