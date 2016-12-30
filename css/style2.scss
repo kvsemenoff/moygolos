@@ -1,3 +1,54 @@
+.db-how-result{
+	text-align:center;
+	padding:25px 0;
+	.db-h-result{
+		font-family: "lato-heavy";
+		font-size: 22px;
+		font-weight:800;
+		span{
+			font-family:"MuseoSansCyrl300";
+			font-size:16px;
+			line-height:24px;
+		}
+	}
+	.db-result-block{
+		padding:20px 0;
+	.db-result-block-one{
+		// outline: 1px solid red;
+		float:left;
+		img{
+			width:25px;
+		}
+	}
+	.db-result-block-two{
+		padding-left:10px;
+		text-align:left;
+		font-family:"MuseoSansCyrl300";
+		margin-left:25px;
+		// outline: 1px solid red;
+		font-size:14px;
+		line-height:18px;
+		span{
+			font-size: 16px;
+			font-weight: 800;
+			font-family: "lato-heavy";
+			line-height:21px;
+
+		}
+	}
+}
+}
+
+		
+
+
+
+
+
+
+
+
+
 
 
 .db-block-sledite{
@@ -8,8 +59,7 @@
 	.db-block-sledite-one{
 	// outline: 1px solid red;
 padding: 0 6px 54px 5px;
-		color: #383838;
-	
+color: #383838;
 font-size: 16px;
 font-weight: 800;
 	}
@@ -74,13 +124,64 @@ font-family: "lato-heavy";
 }
 
 @media only screen and (min-width : 992px) {
+
+
+	.db-how-result{
+		padding-bottom: 18px;
+	text-align:center;
+	padding:23px 0;
+
+	.db-h-result{
+		font-family: "lato-heavy";
+		font-size: 34px;
+		font-weight:800;
+		line-height: 31px;
+		span{
+			font-family:"MuseoSansCyrl1";
+			font-size: 30px;
+			line-height: 45px;
+		}
+	}
+	
+	.db-result-block{
+		// outline: 1px solid red;
+		max-width:500px;
+		margin:0 auto;
+		padding:20px 10px;
+		margin-left: -26px;
+	.db-result-block-one{
+		// outline: 1px solid red;
+		float:left;
+		img{
+			width:25px;
+		}
+	}
+	.db-result-block-two{
+		padding-left:11px;
+		text-align:left;
+		font-family:"MuseoSansCyrl1";
+		margin-left:25px;
+		// outline: 1px solid red;
+		font-size:18px;
+		line-height:26px;
+		span{
+			font-size: 24px;
+			font-weight: 800;
+			font-family: "lato-heavy";
+			line-height:40px;
+
+		}
+	}
+}
+}
+
 	.db-block-sledite-one{
 
 	// outline: 1px solid red;
     padding: 0 99px 54px 108px !important;
-		color: #383838;
-font-size:28px !important;
-font-weight:800px;
+	color: #383838;
+	font-size:28px !important;
+	font-weight:800px;
 	}
 		.db-block-sledite-two{ 
 		height:632px !important;
