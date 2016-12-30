@@ -6,7 +6,7 @@
 				<img src="img/df-img1.png" alt="">
 				<div><span>Вокал</span></div>
 			</div>
-			<a href="#" class="df-link">Получить приглашение</a>
+			<a href="#" class="df-link">Узнать больше</a>
 			<div class="df-text">				
 			</div>
 		</div>
@@ -16,7 +16,7 @@
 				<div><span>Музыкальная
 				грамотность</span></div>
 			</div>
-			<a href="#" class="df-link">Получить приглашение</a>
+			<a href="#" class="df-link">Узнать больше</a>
 			<div class="df-text">				
 			</div>
 		</div>
@@ -27,7 +27,7 @@
 				Ораторское 
 				искусство</span></div>
 			</div>
-			<a href="#" class="df-link">Получить приглашение</a>
+			<a href="#" class="df-link">Узнать больше</a>
 			<div class="df-text">				
 			</div>
 		</div>
@@ -37,7 +37,7 @@
 				<div><span>Актерская 
 				практика</span></div>
 			</div>
-			<a href="#" class="df-link">Получить приглашение</a>
+			<a href="#" class="df-link">Узнать больше</a>
 			<div class="df-text">				
 			</div>
 		</div>
@@ -48,7 +48,7 @@
 					практика <br>
 				с медитацией</span></div>
 			</div>
-			<a href="#" class="df-link">Получить приглашение</a>
+			<a href="#" class="df-link">Узнать больше</a>
 			<div class="df-text">				
 			</div>
 		</div>
@@ -58,7 +58,7 @@
 				<div><span>Психология
 				жизни</span></div>
 			</div>
-			<a href="#" class="df-link">Получить приглашение</a>
+			<a href="#" class="df-link">Узнать больше</a>
 			<div class="df-text">				
 			</div>
 		</div>
@@ -68,7 +68,7 @@
 				<div><span>Творчество
 				личности</span></div>
 			</div>
-			<a href="#" class="df-link">Получить приглашение</a>
+			<a href="#" class="df-link">Узнать больше</a>
 			<div class="df-text">				
 			</div>
 		</div>
@@ -78,7 +78,7 @@
 				<div><span>Свобода
 				движения</span></div>
 			</div>
-			<a href="#" class="df-link">Получить приглашение</a>
+			<a href="#" class="df-link">Узнать больше</a>
 			<div class="df-text">				
 			</div>
 		</div>
