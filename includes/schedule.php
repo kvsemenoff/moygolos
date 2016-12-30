@@ -2,6 +2,8 @@
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
 <center><h2 class="welcome_schedule"><b>НАШЕ РАСПИСАНИЕ</b></h2></center>
 
 <table id="my_table" class="table table-responsive table-bordered schedule_table">
@@ -218,3 +220,27 @@
     </tr>
     </tbody>
 </table>
+
+<script type="text/javascript">
+	$( document ).ready(function() {
+        var MIN_WIDTH = 700;
+        var MIN_HEIGHT = 700;
+
+        function get_size(){
+        	var width = $( window  ).width();
+            var height = $( window  ).height();
+
+            if (width < MIN_WIDTH || height < MIN_HEIGHT) {
+            	//alert('less' + width + " " +  height);
+                $("#my_table").hide();
+            }
+
+            if (width >= MIN_WIDTH && height >= MIN_HEIGHT) {
+            	//alert('more' + " " + width + " " + height);
+                $("#my_table").show();
+            }
+        }
+        setInterval(get_size, 3000);
+    });
+
+</script>
