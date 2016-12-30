@@ -44,8 +44,8 @@
         <td></td>
         <td></td>
         <td></td>
-        <td rowspan="4"></td>
-        <td rowspan="4"></td>
+        <td rowspan="4" class="cyan"></td>
+        <td rowspan="4" class="green"></td>
     </tr>
     <tr>
         <td></td>
