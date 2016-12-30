@@ -231,8 +231,8 @@
 <table id="dc-my_small_table" class="table table-responsive table-bordered dc-schedule_table">
     <thead>
 	    <tr>
-	        <th class="dc-table_header1">Название курса</th>
-	        <th class="dc-table_header1">Дата и время</th>
+	        <th class="dc-table_header1 dc-white_color">Название курса</th>
+	        <th class="dc-table_header1 dc-white_color">Дата и время</th>
 	    </tr>
     </thead>
     <tbody>
