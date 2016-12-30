@@ -59,6 +59,14 @@
          background-color: #fef7be;
 	}
 
+    .table_header1 {
+        background-color: #2ba3fb;   
+    }
+
+    .small_table_row {
+    	background-color: #f4faff;
+    }
+
 	.schedule_table {
         margin: 10% auto;
 	}
@@ -95,6 +103,13 @@
 		color: white;
 	}
 
+    #my_table {
+    	display: none;
+    }
+
+    #my_small_table {
+    	display: none;
+    }
 
 @media only screen and (min-width : 320px) {
 }

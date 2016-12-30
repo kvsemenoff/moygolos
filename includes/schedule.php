@@ -221,6 +221,72 @@
     </tbody>
 </table>
 
+<table id="my_small_table" class="table table-responsive table-bordered schedule_table">
+    <thead>
+	    <tr>
+	        <th class="table_header1">Название курса</th>
+	        <th class="table_header1">Дата и время</th>
+	    </tr>
+    </thead>
+    <tbody>
+	    <tr>
+	        <td>«Вокал»</td>
+	        <td>
+	            Среда &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 19:30 - 21:00<br>
+	            Суббота &nbsp&nbsp&nbsp 14:30 - 16:00
+	        </td>
+	    </tr>
+	    <tr class="small_table_row">
+	        <td>«Музыкальная грамотность»</td>
+	        <td>
+	            Понедельник &nbsp&nbsp&nbsp 19:30 - 21:00<br>
+	            Четверг &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 19:30 - 21:00
+	        </td>
+	    </tr>
+	    <tr>
+	        <td>«Техника речи и
+                Ораторское искусство»
+	        </td>
+	        <td>
+	            Вторник &nbsp&nbsp&nbsp 19:30 - 21:00<br>
+	            Пятница &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 19:30 - 21:00
+	        </td>
+	    </tr>
+	    <tr class="small_table_row">
+	        <td>
+	            «Актерская практика»
+	        </td>
+	        <td>
+	            Суббота &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 12:00 - 14:00
+	        </td>
+	    </tr>
+	    <tr>
+	        <td>
+	            «Творчество личности»
+	        </td>
+	        <td>
+	            Воскресенье &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 12:00 - 14:00
+	        </td>
+	    </tr>
+	    <tr class="small_table_row">
+	        <td>
+	            «Голосовая практика»
+	        </td>
+	        <td>
+	            Воскресенье &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 14:30 - 16:00
+	        </td>
+	    </tr>
+	    <tr>
+	        <td>
+	            «Свобода движения»
+	        </td>
+	        <td>
+	            Воскресенье &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 16:30 - 18:00
+	        </td>
+	    </tr>	    
+    </tbody>
+</table>
+
 <script type="text/javascript">
 	$( document ).ready(function() {
         var MIN_WIDTH = 700;
@@ -230,16 +296,19 @@
         	var width = $( window  ).width();
             var height = $( window  ).height();
 
+            // Скрыть большую таблицу при маленьком экране
             if (width < MIN_WIDTH || height < MIN_HEIGHT) {
-            	//alert('less' + width + " " +  height);
                 $("#my_table").hide();
+                $("#my_small_table").show();
             }
 
+            // Показать большую таблицу при большом экране
             if (width >= MIN_WIDTH && height >= MIN_HEIGHT) {
-            	//alert('more' + " " + width + " " + height);
+            	$("#my_small_table").hide();
                 $("#my_table").show();
             }
         }
+
         setInterval(get_size, 3000);
     });
 
