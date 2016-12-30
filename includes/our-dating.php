@@ -14,7 +14,6 @@
 				<div><a href="img/df-img-dating6.jpg"><img src="img/df-img-dating6.jpg" alt=""></a></div>
 				<div><a href="img/df-img-dating7.jpg"><img src="img/df-img-dating7.jpg" alt=""></a></div>
 				<div><a href="img/df-img-dating2.jpg"><img src="img/df-img-dating7.jpg" alt=""></a></div>
-							
 			</div>
 		</div>
 		<div class="df-right-box">
