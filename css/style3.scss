@@ -194,10 +194,81 @@
         border: none;
     }
 
+    .dc-want_to_you {
+		background-image: url("../img/want_to_you.jpg");
+        background-size: auto;
+        min-height: 691px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .dc-want {
+        padding-top: 70px;
+        b {        
+	        font-family: Lato;
+			font-size: 34px;
+			font-weight: 800;
+			line-height: 26px;
+			text-transform: uppercase;
+        }
+    }
+
+    .dc-input {
+    	background-color: #dff1fe;
+    	color: #686868;
+    	border-radius: 10px;
+    }
+
+    .dc-input {
+    	background-color: #dff1fe;
+    	font-family: MuseoSansCyrl;
+		font-size: 16px;
+		line-height: 41px;
+		margin: 10px;
+		width: 250px;
+		height: 50px;
+		margin-top: 30px; 
+    }
+
+    .dc-free-lesson {
+		font-family: Lato;
+		font-size: 28px;
+		font-weight: 800;
+		line-height: 41px;
+		padding-top: 25px;    	
+    }
+
+    .dc-button {
+    	background-color: #fde841;
+    	border-radius: 10px;
+		width: 250px;
+		height: 50px;
+		margin-top: 30px; 
+		color: #686868;
+		font-family: MuseoSansCyrl;
+		font-size: 16px;
+		line-height: 41px;
+    }
+
 @media only screen and (min-width : 320px) {
+    .dc-want_to_you {
+		background-image: url("../img/want_to_you.jpg");
+        background-size: auto;
+        margin: 0 auto;
+        max-height: 330px;
+        width: 100%;
+    }
+
 }
 
 @media only screen and (min-width : 480px) {
+    .dc-want_to_you {
+		background-image: url("../img/want_to_you.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height: 330px;
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width : 768px) {
@@ -328,7 +399,7 @@
 	    height: 557px;
     }
 
-    	.dc-schedule {
+    .dc-schedule {
 		text-align: center;
 		margin: 0 auto;
 		font-family: "lato-heavy";
@@ -365,6 +436,15 @@
 	.borderless td, .borderless th {
         border: none;
     }
+
+    .dc-want_to_you {
+		background-image: url("../img/want_to_you.jpg");
+        background-repeat: no-repeat;
+        max-height: 291px;
+        width: 100%;
+        background-size: cover;
+    }
+
 }
 
 @media only screen and (min-width : 1248px) {

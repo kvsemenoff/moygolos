@@ -34,6 +34,9 @@
 	<?php require_once('includes/two.php'); ?>
 	<?php require_once('includes/napravlenia.php'); ?>
 	<?php require_once('includes/our-dating.php'); ?>
+
+	<?php require_once('includes/want_to_you.php'); ?>
+
 	<?php require_once('includes/schedule.php'); ?>
 	<?php require_once('includes/how-result.php'); ?>
 	<?php require_once('includes/price.php'); ?>
