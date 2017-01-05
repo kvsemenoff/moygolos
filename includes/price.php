@@ -7,7 +7,6 @@
 </div>
 
 
-
 <div id="dc-price-tables" class="dc-white_color">
     <center><h4>Стоимость курсов</h4></center>
 
