@@ -1,4 +1,4 @@
-<div class="dc-schedule">
+<div class="dc-how">
     <center>
         <h3 class="dc-welcome_schedule">
             <b>КАК ПРОХОДЯТ ЗАНЯТИЯ</b>

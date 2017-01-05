@@ -1,4 +1,4 @@
-<div class="dc-schedule">
+<div class="dc-price1">
     <center>
         <h3 class="dc-price">
             <b>СТОИМОСТЬ ЗАНЯТИЙ</b>
@@ -8,7 +8,11 @@
 
 
 <div id="dc-price-tables" class="dc-white_color">
-    <center><h4>Стоимость курсов</h4></center>
+    <center>
+        <h4 id="dc-course_price">
+            Стоимость  курсов
+        </h4>
+    </center>
 
 	<table id="dc-price_table" class="table borderless dc-price_table dc-white_color">
 	    <thead>
@@ -93,7 +97,11 @@
 	    </tbody>
 	</table>
 
-	<center><h4>Стоимость групповых занятий</h4></center>
+	<center>
+	    <h4 style="margin-top: 50px; margin-bottom: 50px;">
+	        Стоимость групповых занятий
+	    </h4>
+	</center>
 
 	<table id="dc-price_table_group" class="table borderless dc-price_table dc-white_color">
 	    <thead>
@@ -143,7 +151,11 @@
 	</table>
 
 
-	<center><h4>Стоимость индивидуальных занятий</h4></center>
+	<center>
+	    <h4 style="margin-top: 50px; margin-bottom: 50px;">
+	        Стоимость индивидуальных занятий
+	    </h4>
+	</center>
 
 	<table id="dc-price_table_individual" class="table borderless dc-price_table dc-white_color">
 	    <thead>
