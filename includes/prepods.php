@@ -14,7 +14,7 @@
 						<li><span>Член Союза театральных деятелей</span></li>
 					</ul>
 					<div class="dd-prep-button-wrap">
-						<a class="dd-prep-button" href="#">Записаться на курс</a>
+						<a class="dd-prep-button" href="#log-in" name="modal">Записаться на курс</a>
 					</div>
 					<div class="dd-button-span">
 						<span>Запись на курс уже идет<br>
@@ -35,7 +35,7 @@
 							<li><span>Выпускница факультета «Телерадиожурналистики» ГУ г.Екатеринбург </span></li>
 						</ul>
 						<div class="dd-prep-button-wrap">
-							<a class="dd-prep-button" href="#">Записаться на курс</a>
+							<a class="dd-prep-button" href="#log-in" name="modal">Записаться на курс</a>
 						</div>
 						<div class="dd-button-span">
 							<span>Запись на курс уже идет<br>
@@ -57,7 +57,7 @@
 								<li><span>Разбирается не только в теории музыки, но и в практике современной и классической музыки</span></li>
 							</ul>
 							<div class="dd-prep-button-wrap">
-								<a class="dd-prep-button" href="#">Записаться на курс</a>
+								<a class="dd-prep-button" href="#log-in" name="modal">Записаться на курс</a>
 							</div>
 							<div class="dd-button-span">
 								<span>Запись на курс уже идет<br>
@@ -81,7 +81,7 @@
 									<li><span>Выпускница программы "Клиническая психология в здравоохранении" Института естественных наук</span></li>
 								</ul>
 								<div class="dd-prep-button-wrap">
-									<a class="dd-prep-button" href="#">Записаться на курс</a>
+									<a class="dd-prep-button" href="#log-in" name="modal">Записаться на курс</a>
 								</div>
 							</div>
 						</div>	
@@ -95,7 +95,7 @@
 									<li><span>Провела более 180 часов танцевально-двигательной практики </span></li>
 								</ul>
 								<div class="dd-prep-button-wrap">
-									<a class="dd-prep-button" href="#">Записаться на курс</a>
+									<a class="dd-prep-button" href="#log-in" name="modal">Записаться на курс</a>
 								</div>
 							</div>
 						</div>
@@ -160,7 +160,7 @@
 						<div class="dd-prep">
 							<div class="dd-prep-txt border-nones">
 								<div class="dd-prep-button-wrap">
-									<a class="dd-prep-button" href="#">Записаться на курс</a>
+									<a class="dd-prep-button" href="#log-in" name="modal">Записаться на курс</a>
 								</div>
 								<div class="dd-button-span dd-button-span2">
 									<span>Запись на курс уже идет<br>

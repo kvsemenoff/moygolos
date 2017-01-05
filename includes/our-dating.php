@@ -54,7 +54,7 @@
 			<span>Среда с 19:30 до 21:00, Суббота с 14:30 до 16:00</span>
 			<span>Стоимость курса: <b>7 000 руб.</b></span>
 			<span class="df-price">Запишитесь и получите  <span>скидку 500 <em>руб.</em></span></span>
-			<a href="#">Записаться на курс</a>
+			<a href="#log-in" name="modal">Записаться на курс</a>
 		</div>
 		<div class="clear"></div>
 	</div>	

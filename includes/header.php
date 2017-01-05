@@ -82,7 +82,7 @@
 					<a href="#log-in" name="modal">Получить приглашение</a>
 				</div>
 				<div class="dd-form">
-					<form class="form1" action="#" method="post">
+					<form class="form2" action="#" method="post">
 						<div class="dd-tit">
 							<span>Заполните форму и получите</span>
 						</div>
@@ -91,10 +91,9 @@
 							пробный урок, на котором вы 
 							получите индивидуальный<br>
 							план развития:<span>
-
-							<input class="dd-p" type="text" placeholder="Как вас зовут">
-							<input class="phone" type="text" placeholder="Телефон">
-							<input type="text" placeholder="Email">
+							<input class="dd-p" name="uname" type="text" placeholder="Как вас зовут">
+							<input class="phone" name="phone" type="text" placeholder="Телефон">
+							<input type="text" name="email" placeholder="Email">
 							<input class="dd-sub" type="submit" value="Получить приглашение">
 						</form>
 					</div>
@@ -146,7 +145,7 @@
 							<div class="dd-close">x</div>
 							<div class="dd-input-wrap dd-padding-bottom">
 								<input class="my-input phone" type="text" placeholder="Введите телефон" name="phone">
-								<input class="my-input" type="text" placeholder="Введите имя" name="phone">
+								<input class="my-input" type="text" placeholder="Введите имя" name="uname">
 							</div>
 							<input class="sub" type="submit" class="form-button" name="submit" value="Заказать звонок">
 						</div>
