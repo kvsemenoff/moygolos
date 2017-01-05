@@ -168,7 +168,7 @@
 	    </thead>
 	    <tbody>
 		    <tr class="dc-table_text">
-		        <td >
+		        <td>
 		        	Индивидуальные занятия по вокалу
 		        </td>
 		        <td>
