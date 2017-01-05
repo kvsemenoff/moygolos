@@ -1,8 +1,8 @@
 <div class="dc-price1">
     <center>
-        <h3 class="dc-price">
+        <h2 class="db-h-content">
             <b>СТОИМОСТЬ ЗАНЯТИЙ</b>
-        </h3>
+        </h2>
     </center>
 </div>
 

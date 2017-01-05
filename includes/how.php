@@ -1,8 +1,8 @@
 <div class="dc-how">
     <center>
-        <h3 class="dc-welcome_schedule">
+        <h2 class="db-h-content">
             <b>КАК ПРОХОДЯТ ЗАНЯТИЯ</b>
-        </h3>
+        </h2>
     </center>
 </div>
 

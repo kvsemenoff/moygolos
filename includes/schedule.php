@@ -2,9 +2,9 @@
 
 <div class="dc-schedule">
     <center>
-        <h3 class="dc-welcome_schedule">
+        <h2 class="db-h-content">
             <b>НАШЕ РАСПИСАНИЕ</b>
-        </h3>
+        </h2>
     </center>
 </div>
 
