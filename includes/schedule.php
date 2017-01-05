@@ -299,8 +299,8 @@
 
 <script type="text/javascript">
 	$( document ).ready(function() {
-        var MIN_WIDTH = 700;
-        var MIN_HEIGHT = 700;
+        var MIN_WIDTH = 600;
+        var MIN_HEIGHT = 500;
 
         function get_size(){
         	var width = $( window  ).width();
