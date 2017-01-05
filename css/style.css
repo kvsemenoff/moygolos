@@ -1,2 +1,167 @@
-@import url(reset.css);@import url(style2.css);@import url(style3.css);@import url(style4.css);@import url(style5.css);@import url(fonts.css);.clear{clear:both}.center{text-align:center}h2{color:#383838;font-size:25px;font-family:"lato-heavy";text-align:center;text-transform:uppercase;font-weight:bold}.testimonials .owl-controls{display:block;width:250px;margin:0 auto;outline:1px solid blue;position:relative}.testimonials .owl-dots{display:block;margin:0 auto;outline:1px solid red}.testimonials .owl-dots .owl-dot{display:inline-block;margin-right:15px;position:relative;text-align:center}.testimonials .owl-dots .owl-dot span{font-family:"lato-heavy"}.testimonials .owl-dots .owl-dot span span{display:inline-block;color:#fff;font-size:25px;margin-top:4px}.testimonials .owl-dots .owl-dot>span{display:inline-block;display:block;width:35px;height:35px;border-radius:10em;background:#5faeda}.testimonials .owl-dots .active>span{display:inline-block;display:block;width:35px;height:35px;border-radius:10em;background:#1b8bcb}.testimonials .item img{display:inline-block;width:unset;height:unset}.testimonials__img-box{width:100%;text-align:center}.testimonials__left{text-align:center;width:100%}.testimonials__left-title{display:block;color:#383838;font-family:"MuseoSansCyrl500";font-size:20px;font-weight:bold;margin-bottom:25px}.soc-link{color:#1b8bcb;text-transform:none;font-family:"MuseoSansCyrl500"}.testimonials__right{background:#fdfdfd;padding:30px;box-sizing:border-box}.testimonials__right-title{display:block;color:#000;font-size:24px;font-family:"lato-heavy";text-align:center;margin-bottom:25px}.testimonials__right-text{font-family:"MuseoSansCyrl500";color:#383838;font-size:16px;line-height:26px}.testimonials-arr{display:block;font-family:"lato-medium";font-size:34px;color:#000;position:absolute;width:25px;height:25px;margin-top:5px}.testimonials-left{left:0px;margin-right:35px}.testimonials-right{right:0px}@media only screen and (min-width: 992px){h2{font-size:34px !important}.testimonials__left{float:left;width:20%}.testimonials__right{float:right;width:75%}}
+@import url(reset.css);
+@import url(style2.css);
+@import url(style3.css);
+@import url(style4.css);
+@import url(style5.css);
+@import url(fonts.css);
+.clear {
+  clear: both; }
+
+.center {
+  text-align: center; }
+
+h2 {
+  color: #383838;
+  font-size: 25px;
+  font-family: "lato-heavy";
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.testimonials {
+  padding: 25px 0px; }
+  .testimonials .testimonials__slider {
+    position: relative;
+    padding-top: 20px; }
+  .testimonials .owl-controls {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 50px;
+    z-index: 400;
+    display: none; }
+  .testimonials .owl-dots {
+    display: block;
+    margin: 0 auto; }
+    .testimonials .owl-dots .owl-dot {
+      display: inline-block;
+      margin-right: 15px;
+      position: relative;
+      text-align: center; }
+      .testimonials .owl-dots .owl-dot span {
+        font-family: "lato-heavy"; }
+        .testimonials .owl-dots .owl-dot span span {
+          display: inline-block;
+          color: #fff;
+          font-size: 25px;
+          margin-top: 4px; }
+    .testimonials .owl-dots .owl-dot > span {
+      display: inline-block;
+      display: block;
+      width: 35px;
+      height: 35px;
+      border-radius: 10em;
+      background: #5faeda; }
+    .testimonials .owl-dots .active > span {
+      display: inline-block;
+      display: block;
+      width: 35px;
+      height: 35px;
+      border-radius: 10em;
+      background: #1b8bcb; }
+  .testimonials .item img {
+    display: inline-block;
+    width: unset;
+    height: unset; }
+
+.testimonials__img-box {
+  width: 100%;
+  text-align: center; }
+
+.testimonials__left {
+  text-align: center;
+  width: 100%; }
+
+.testimonials__left-title {
+  display: block;
+  color: #383838;
+  font-family: "MuseoSansCyrl500";
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 25px; }
+
+.soc-link {
+  color: #1b8bcb;
+  text-transform: none;
+  font-family: "MuseoSansCyrl500"; }
+
+.testimonials__right {
+  background: #fdfdfd;
+  padding: 30px;
+  box-sizing: border-box;
+  position: relative; }
+
+.testimonials__right:before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 37px 40px 37px 0;
+  border-color: transparent #fdfdfd transparent;
+  left: -40px;
+  top: 75px; }
+
+.testimonials__right-title {
+  display: block;
+  color: #000;
+  font-size: 24px;
+  font-family: "lato-heavy";
+  text-align: center;
+  margin-bottom: 25px; }
+
+.testimonials__right-text {
+  font-family: "MuseoSansCyrl500";
+  color: #383838;
+  font-size: 16px;
+  line-height: 26px; }
+
+.testimonials-arr {
+  display: block;
+  font-family: "lato-medium";
+  font-size: 34px;
+  color: #000;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  margin-top: 5px; }
+
+.testimonials-left {
+  left: -50px;
+  margin-right: 35px;
+  z-index: 500;
+  top: -5px; }
+
+.testimonials-right {
+  right: -20px;
+  top: -5px;
+  z-index: 500; }
+
+@media only screen and (min-width: 992px) {
+  h2 {
+    font-size: 34px !important; }
+
+  .testimonials {
+    padding: 70px 0px; }
+
+  .testimonials__slider {
+    position: relative;
+    padding-top: 140px !important; }
+    .testimonials__slider .owl-controls {
+      display: block; }
+
+  .testimonials__left {
+    float: left;
+    width: 22%;
+    padding-left: 10px;
+    box-sizing: border-box; }
+
+  .testimonials__right {
+    float: right;
+    width: 75%; } }
+
 /*# sourceMappingURL=style.css.map */
