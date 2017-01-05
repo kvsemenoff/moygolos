@@ -17,10 +17,10 @@
 	<table id="dc-price_table" class="table borderless dc-price_table dc-white_color">
 	    <thead>
 		    <tr>
-		        <th class="dc-table_header2 large_1st_column" style="border-bottom: 3px solid #fde841;"></th>
-		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841;">Стоимость</th>
-		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841;">Кол-во занятий</th>
-		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841;">Всего часов</th>
+		        <th class="dc-table_header2 large_1st_column" style="border-bottom: 3px solid #fde841; width: 40%;"></th>
+		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841; width: 20%;">Стоимость</th>
+		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841; width: 20%;">Кол-во занятий</th>
+		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841; width: 20%;">Всего часов</th>
 		    </tr>
 	    </thead>
 	    <tbody>
@@ -106,10 +106,10 @@
 	<table id="dc-price_table_group" class="table borderless dc-price_table dc-white_color">
 	    <thead>
 		    <tr>
-		        <th class="dc-table_header2 large_1st_column" style="border-bottom: 3px solid #fde841;"></th>
-		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841;"><b>1</b> занятие</th>
-		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841;"><b>4</b> занятия</th>
-		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841;"><b>8</b> занятий</th>
+		        <th class="dc-table_header2 large_1st_column" style="border-bottom: 3px solid #fde841; width: 40%;"></th>
+		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841; width: 20%;"><b>1</b> занятие</th>
+		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841; width: 20%;"><b>4</b> занятия</th>
+		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841; width: 20%;"><b>8</b> занятий</th>
 		    </tr>
 	    </thead>
 	    <tbody>
@@ -160,10 +160,10 @@
 	<table id="dc-price_table_individual" class="table borderless dc-price_table dc-white_color">
 	    <thead>
 		    <tr>
-		        <th class="dc-table_header2 large_1st_column" style="border-bottom: 3px solid #fde841;"></th>
-		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841;"><b>1</b> занятие</th>
-		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841;"><b>4</b> занятия</th>
-		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841;"><b>8</b> занятий</th>
+		        <th class="dc-table_header2 large_1st_column" style="border-bottom: 3px solid #fde841; width: 40%;"></th>
+		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841; width: 20%;"><b>1</b> занятие</th>
+		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841; width: 20%;"><b>4</b> занятия</th>
+		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841; width: 20%;"><b>8</b> занятий</th>
 		    </tr>
 	    </thead>
 	    <tbody>
