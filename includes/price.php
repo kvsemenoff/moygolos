@@ -1,4 +1,4 @@
-<div class="dc-schedule">
+<div class="dc-price1">
     <center>
         <h3 class="dc-price">
             <b>СТОИМОСТЬ ЗАНЯТИЙ</b>
@@ -8,12 +8,16 @@
 
 
 <div id="dc-price-tables" class="dc-white_color">
-    <center><h4>Стоимость курсов</h4></center>
+    <center>
+        <h4 id="dc-course_price">
+            Стоимость  курсов
+        </h4>
+    </center>
 
 	<table id="dc-price_table" class="table borderless dc-price_table dc-white_color">
 	    <thead>
 		    <tr>
-		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841;"></th>
+		        <th class="dc-table_header2 large_1st_column" style="border-bottom: 3px solid #fde841;"></th>
 		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841;">Стоимость</th>
 		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841;">Кол-во занятий</th>
 		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841;">Всего часов</th>
@@ -93,12 +97,16 @@
 	    </tbody>
 	</table>
 
-	<center><h4>Стоимость групповых занятий</h4></center>
+	<center>
+	    <h4 style="margin-top: 50px; margin-bottom: 50px;">
+	        Стоимость групповых занятий
+	    </h4>
+	</center>
 
 	<table id="dc-price_table_group" class="table borderless dc-price_table dc-white_color">
 	    <thead>
 		    <tr>
-		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841;"></th>
+		        <th class="dc-table_header2 large_1st_column" style="border-bottom: 3px solid #fde841;"></th>
 		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841;"><b>1</b> занятие</th>
 		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841;"><b>4</b> занятия</th>
 		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841;"><b>8</b> занятий</th>
@@ -143,12 +151,16 @@
 	</table>
 
 
-	<center><h4>Стоимость индивидуальных занятий</h4></center>
+	<center>
+	    <h4 style="margin-top: 50px; margin-bottom: 50px;">
+	        Стоимость индивидуальных занятий
+	    </h4>
+	</center>
 
 	<table id="dc-price_table_individual" class="table borderless dc-price_table dc-white_color">
 	    <thead>
 		    <tr>
-		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841;"></th>
+		        <th class="dc-table_header2 large_1st_column" style="border-bottom: 3px solid #fde841;"></th>
 		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841;"><b>1</b> занятие</th>
 		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841;"><b>4</b> занятия</th>
 		        <th class="dc-table_header2" style="border-bottom: 3px solid #fde841;"><b>8</b> занятий</th>

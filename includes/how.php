@@ -1,4 +1,4 @@
-<div class="dc-schedule">
+<div class="dc-how">
     <center>
         <h3 class="dc-welcome_schedule">
             <b>КАК ПРОХОДЯТ ЗАНЯТИЯ</b>
@@ -51,7 +51,7 @@
     $(document).ready(function() {
         $(".dc-photo").click(
         	function() {
-                $('.dc-main-photo').html('<img src="' + $(this).attr('src') + '" width="1170" height="585" />');
+                $('.dc-main-photo').html('<img src="' + $(this).attr('src') + '" width="74%"  />');
         	}
         );
     });
