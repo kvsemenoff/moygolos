@@ -1,8 +1,4 @@
 
-<!--
-Здесь был код подключения бутстрапа. Поскольку бутсрап уже подключен в шапке, то код удалил. 
--->
-
 <div class="dc-schedule">
     <center>
         <h3 class="dc-welcome_schedule">
@@ -303,8 +299,8 @@
 
 <script type="text/javascript">
 	$( document ).ready(function() {
-        var MIN_WIDTH = 700;
-        var MIN_HEIGHT = 700;
+        var MIN_WIDTH = 600;
+        var MIN_HEIGHT = 400;
 
         function get_size(){
         	var width = $( window  ).width();

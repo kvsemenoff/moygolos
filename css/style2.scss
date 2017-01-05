@@ -1,6 +1,74 @@
+.db-footer{
+	background:#4d4d4d;
+	color:#fff;
+	padding: 25px 0;
+	font-family: "MuseoSansCyrl300";
+	margin: 0 auto;
+	.db-footer-container{
+		margin: 0 auto;
+		width:300px;
+		// outline: 1px solid red;
+		text-align: center;
+		.db-footer-img{
+			// outline: 1px solid red;
+			// background: url('../img/logo2.png') no-repeat;
+			width:210px;
+			padding-bottom: 10px;
+			
+			margin: 0 auto;
+		}
+		.db-footer-text{
+			text-align: center;
+			display: none;
+			margin: 0 auto;
+			width:210px;
+			span{
+				padding-top: 14px;
+				display: inline-block;
+			}
+			font-size: 23px;
+			padding-left: 32px;
+			// outline: 1px solid red;
+			
+			text-align: center;
+
+		}
+		.db-footer-phone{
+			padding-top: 0px;
+			// padding-right: 15px;
+			
+			
+			// outline: 1px solid red;
+			span{
+				font-family: "MuseoSansCyrl500";
+				font-size: 18px;
+				color:#fff;
+				line-height: 43px;
+
+			}
+			a{	
+				display:none;
+				
+				border: 2px solid #fde841;
+				border-radius: 7px;
+				padding: 5px 47px;
+				font-size: 15px;
+				color: #fde841;
+				transition: all 0.7s;
+				-moz-transition: all 0.7s;
+			}
+			a:hover{
+				color:black;
+				background: #fde841;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
 .db-how-result{
 	text-align:center;
-	padding:25px 0;
+	padding:35px 0;
 	.db-h-result{
 		font-family: "lato-heavy";
 		font-size: 22px;
@@ -118,9 +186,139 @@ font-family: "lato-heavy";
 }
 
 @media only screen and (min-width : 480px) {
+	.db-footer{
+	background:#4d4d4d;
+	color:#fff;
+	padding: 25px 0;
+	font-family: "MuseoSansCyrl300";
+	margin: 0 auto;
+	.db-footer-container{
+		margin: 0 auto;
+		width:450px;
+		// outline: 1px solid red;
+		text-align: center;
+		.db-footer-img{
+			// outline: 1px solid red;
+			// background: url('../img/logo2.png') no-repeat;
+			width:210px;
+			padding-bottom: 10px;
+			float:left;
+			
+			margin: 0 auto;
+		}
+		.db-footer-text{
+			text-align: center;
+			display: none;
+			
+			span{
+				padding-top: 14px;
+				display: inline-block;
+			}
+			font-size: 23px;
+			padding-left: 32px;
+			// outline: 1px solid red;
+			float:right;
+			text-align: center;
+
+		}
+		.db-footer-phone{
+			padding-top: 0px;
+			// padding-right: 15px;
+			
+			
+			// outline: 1px solid red;
+			span{
+				font-family: "MuseoSansCyrl500";
+				font-size: 18px;
+				color:#fff;
+				line-height: 26px;
+				padding-top:20px; 
+
+			}
+			a{	
+				display:none;
+				border: 2px solid #fde841;
+				border-radius: 7px;
+				padding: 5px 47px;
+				font-size: 15px;
+				color: #fde841;
+				transition: all 0.7s;
+				-moz-transition: all 0.7s;
+			}
+			a:hover{
+				color:black;
+				background: #fde841;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
 }
 
 @media only screen and (min-width : 768px) {
+	.db-footer{
+	background:#4d4d4d;
+	color:#fff;
+	padding: 65px 0;
+	font-family: "MuseoSansCyrl300";
+	margin: 0 auto;
+	.db-footer-container{
+		width:750px;
+		margin: 0 auto;
+		// outline: 1px solid red;
+		.db-footer-img{
+			// outline: 1px solid red;
+			// background: url('../img/db-footer-logo1.png') no-repeat;
+			float:left;
+		}
+		.db-footer-text{
+			display: block;
+			span{
+				padding-top: 5px;
+				display: inline-block;
+			}
+			font-size: 14px;
+			
+			// outline: 1px solid red;
+			float:left;
+			text-align: center;
+			width:325px;
+
+		}
+		.db-footer-phone{
+			padding-top: 0px;
+			// padding-right: 15px;
+			
+			float:right;
+			// outline: 1px solid red;
+			span{
+				font-family: "MuseoSansCyrl500";
+				font-size: 18px;
+				color:#fff;
+				line-height: 16px;
+				padding:0;
+			}
+			a{	
+				display:inline-block;
+				
+				border: 2px solid #fde841;
+				border-radius: 7px;
+				padding: 5px 18px;
+				font-size: 15px;
+				color: #fde841;
+				transition: all 0.7s;
+				-moz-transition: all 0.7s;
+			}
+			a:hover{
+				color:black;
+				background: #fde841;
+				text-decoration: none;
+			}
+		}
+	}
+}
+	
 }
 
 @media only screen and (min-width : 992px) {
@@ -219,6 +417,69 @@ font-family: "lato-heavy";
 }
 
 @media only screen and (min-width : 1248px) {
+	.db-footer{
+	background:#4d4d4d;
+	color:#fff;
+	padding: 65px 0;
+	font-family: "MuseoSansCyrl300";
+	margin: 0 auto;
+	.db-footer-container{
+		margin: 0 auto;
+		width: 1180px;
+		// outline: 1px solid red;
+		.db-footer-img{
+			// outline: 1px solid red;
+			// background: url('../img/db-footer-logo1.png') no-repeat;
+			float:left;
+			width:475px;
+		}
+		.db-footer-text{
+			width: 450px;
+			display: block;
+			span{
+				padding-top: 14px;
+				display: inline-block;
+			}
+			font-size: 23px;
+			padding-left:33px;
+			// outline: 1px solid red;
+			float:left;
+			text-align: center;
+
+		}
+		.db-footer-phone{
+			padding-top: 0px;
+			// padding-right: 15px;
+			padding-left:35px;
+			float:right;
+			// outline: 1px solid red;
+			span{
+				font-family: "MuseoSansCyrl500";
+				font-size: 26px;
+				color:#fff;
+				line-height: 26px;
+				padding-bottom: 15px;
+display: inline-block;
+			}
+			a{	
+				display:inline-block;
+				
+				border: 2px solid #fde841;
+				border-radius: 7px;
+				padding: 5px 47px;
+				font-size: 15px;
+				color: #fde841;
+				transition: all 0.7s;
+				-moz-transition: all 0.7s;
+			}
+			a:hover{
+				color:black;
+				background: #fde841;
+				text-decoration: none;
+			}
+		}
+	}
+}
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {

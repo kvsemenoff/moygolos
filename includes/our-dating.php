@@ -1,9 +1,27 @@
+
 <div class="my-container">
 	<div class="df-dating">
 		<h3>Давайте знакомиться</h3>
 		<div class="df-left-box">
 			<div class="df-img2">
-				<!-- <img src="img/df-img-dating.jpg" alt="" class="img-responsive"> -->
+				
+			</div>	
+			<div id="df-owl-demo" class="df-slider">
+				<div class="item">
+					<div class="df-sl">
+						<img src="img/df-img-dating.jpg" alt="" class="img-responsive">
+					</div>
+				</div>	
+				<div class="item">
+					<div class="df-sl">
+						<img src="img/df-img-dating.jpg" alt="" class="img-responsive">
+					</div>
+				</div>		
+				<div class="item">
+					<div class="df-sl">
+						<img src="img/df-img-dating.jpg" alt="" class="img-responsive">
+					</div>
+				</div>			
 			</div>
 			<div class="df-img-little">
 				<div><a href="img/df-img-dating.jpg"><img src="img/df-img-dating1.jpg" alt=""></a></div>
@@ -35,9 +53,9 @@
 			<span><b>Февраль-Март</b> <em>(16 занятий, 24 часа)</em></span>
 			<span>Среда с 19:30 до 21:00, Суббота с 14:30 до 16:00</span>
 			<span>Стоимость курса: <b>7 000 руб.</b></span>
-			<span class="df-price">Запишитесь и получите  <span>скидку 500 руб.</span></span>
+			<span class="df-price">Запишитесь и получите  <span>скидку 500 <em>руб.</em></span></span>
 			<a href="#">Записаться на курс</a>
 		</div>
 		<div class="clear"></div>
-	</div>
+	</div>	
 </div>

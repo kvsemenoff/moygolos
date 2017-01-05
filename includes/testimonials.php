@@ -20,11 +20,16 @@
 	            }
 	        }
 	    });
+		
 
 	    $('.testimonials__slider .owl-dot').each(function(i,elem) {
 
-			$(this).find('span').html('<span class="t-number">'+i+'</span>');
+			$(this).find('span').html('<span class="t-number">'+(i+1)+'</span>');
 		});
+		var countItems = ($(".testimonials__slider .owl-dots div").length*55)-20;
+		var strpx = countItems+'px';
+		$('.testimonials__slider .owl-controls').css('width',strpx);
+		//alert(countItems);
 
 	});
 </script>
@@ -51,6 +56,86 @@
 						</div>
 						<div class="clear"></div>
 					</div>	
+					<div class="item">
+						<div class="testimonials__left">
+							<div class="testimonials__img-box">
+								<img src="img/da-foto1.png" alt="">
+							</div>	
+							<span class="testimonials__left-title">Кристина Вебер, 25 лет</span>
+							<a class="soc-link" href="vk.com/kristyveber">vk.com/kristyveber</a>
+						</div>
+						<div class="testimonials__right">
+							<span class="testimonials__right-title">"...безумно жажду петь!...”</span> 
+							<div class="testimonials__right-text">
+								Что же я хочу сказать после мастер-класса "Фитнес для голоса"? А то что я хочу,нет..даже не хочу,а безумно жажду петь! Очень вдохновляющее занятие! Ксюша, спасибо за то что было легко и доступно даже новичку. Упражнения очень полезны и универсальны для тех кто поет, для тех кто выступает на публике и так же для тех кто хочет стать более уверенными в себе. Занятие очень плодотворное, атмосфера очень душевная. Спасибо!
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="item">
+						<div class="testimonials__left">
+							<div class="testimonials__img-box">
+								<img src="img/da-foto1.png" alt="">
+							</div>	
+							<span class="testimonials__left-title">Кристина Вебер, 25 лет</span>
+							<a class="soc-link" href="vk.com/kristyveber">vk.com/kristyveber</a>
+						</div>
+						<div class="testimonials__right">
+							<span class="testimonials__right-title">"...безумно жажду петь!...”</span> 
+							<div class="testimonials__right-text">
+								Что же я хочу сказать после мастер-класса "Фитнес для голоса"? А то что я хочу,нет..даже не хочу,а безумно жажду петь! Очень вдохновляющее занятие! Ксюша, спасибо за то что было легко и доступно даже новичку. Упражнения очень полезны и универсальны для тех кто поет, для тех кто выступает на публике и так же для тех кто хочет стать более уверенными в себе. Занятие очень плодотворное, атмосфера очень душевная. Спасибо!
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="item">
+						<div class="testimonials__left">
+							<div class="testimonials__img-box">
+								<img src="img/da-foto1.png" alt="">
+							</div>	
+							<span class="testimonials__left-title">Кристина Вебер, 25 лет</span>
+							<a class="soc-link" href="vk.com/kristyveber">vk.com/kristyveber</a>
+						</div>
+						<div class="testimonials__right">
+							<span class="testimonials__right-title">"...безумно жажду петь!...”</span> 
+							<div class="testimonials__right-text">
+								Что же я хочу сказать после мастер-класса "Фитнес для голоса"? А то что я хочу,нет..даже не хочу,а безумно жажду петь! Очень вдохновляющее занятие! Ксюша, спасибо за то что было легко и доступно даже новичку. Упражнения очень полезны и универсальны для тех кто поет, для тех кто выступает на публике и так же для тех кто хочет стать более уверенными в себе. Занятие очень плодотворное, атмосфера очень душевная. Спасибо!
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="item">
+						<div class="testimonials__left">
+							<div class="testimonials__img-box">
+								<img src="img/da-foto1.png" alt="">
+							</div>	
+							<span class="testimonials__left-title">Кристина Вебер, 25 лет</span>
+							<a class="soc-link" href="vk.com/kristyveber">vk.com/kristyveber</a>
+						</div>
+						<div class="testimonials__right">
+							<span class="testimonials__right-title">"...безумно жажду петь!...”</span> 
+							<div class="testimonials__right-text">
+								Что же я хочу сказать после мастер-класса "Фитнес для голоса"? А то что я хочу,нет..даже не хочу,а безумно жажду петь! Очень вдохновляющее занятие! Ксюша, спасибо за то что было легко и доступно даже новичку. Упражнения очень полезны и универсальны для тех кто поет, для тех кто выступает на публике и так же для тех кто хочет стать более уверенными в себе. Занятие очень плодотворное, атмосфера очень душевная. Спасибо!
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="item">
+						<div class="testimonials__left">
+							<div class="testimonials__img-box">
+								<img src="img/da-foto1.png" alt="">
+							</div>	
+							<span class="testimonials__left-title">Кристина Вебер, 25 лет</span>
+							<a class="soc-link" href="vk.com/kristyveber">vk.com/kristyveber</a>
+						</div>
+						<div class="testimonials__right">
+							<span class="testimonials__right-title">"...безумно жажду петь!...”</span> 
+							<div class="testimonials__right-text">
+								Что же я хочу сказать после мастер-класса "Фитнес для голоса"? А то что я хочу,нет..даже не хочу,а безумно жажду петь! Очень вдохновляющее занятие! Ксюша, спасибо за то что было легко и доступно даже новичку. Упражнения очень полезны и универсальны для тех кто поет, для тех кто выступает на публике и так же для тех кто хочет стать более уверенными в себе. Занятие очень плодотворное, атмосфера очень душевная. Спасибо!
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
 					<div class="item">
 						<div class="testimonials__left">
 							<div class="testimonials__img-box">
