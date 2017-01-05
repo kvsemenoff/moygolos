@@ -68,7 +68,7 @@
 				<span>Раскрой свой голос за <span>1 месяц</span></span>
 			</div>
 			<div class="dd-slogan">
-				<span> С помощью авторской методики преподавания
+				<span> С помощью авторской методики преподавания<br>
 					от вокалистки с 15-летним опытом в музыке</span>
 				</div>
 				<div class="dd-spisok">
@@ -87,12 +87,12 @@
 							<span>Заполните форму и получите</span>
 						</div>
 						<div class="dd-spans">
-							<span>Приглашение на <span>БЕСПЛАТНЫЙ</span> 
+							<span class="dd-pb">Приглашение на <span>БЕСПЛАТНЫЙ</span> 
 							пробный урок, на котором вы 
 							получите индивидуальный<br>
 							план развития:<span>
 
-							<input type="text" placeholder="Как вас зовут">
+							<input class="dd-p" type="text" placeholder="Как вас зовут">
 							<input type="text" placeholder="Телефон">
 							<input type="text" placeholder="Email">
 							<input class="dd-sub" type="submit" value="Получить приглашение">
