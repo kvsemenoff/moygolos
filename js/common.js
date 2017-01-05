@@ -60,7 +60,7 @@ $(document).ready(function(){
 
 
 
-       var owl = $("#owl-demo");
+       var owl = $("#df-owl-demo");
 
       owl.owlCarousel({
 

@@ -7,7 +7,7 @@
 				<!-- <img src="img/df-img-dating.jpg" alt="" class="img-responsive"> -->
 			</div>
 			
-			<div id="owl-demo" class="df-slider">
+			<div id="df-owl-demo" class="df-slider">
 				<div class="item">
 					<div class="df-img-slider">
 						<img src="img/df-img-dating.jpg" alt="" class="img-responsive">					
