@@ -154,6 +154,14 @@
 
 
 /*====our-dating=======*/
+// .df-img-slider{
+// 	margin: 0 auto;			
+// 	text-align: center;
+// 	display: block;
+// 	outline: 5px solid red;
+// 	width: 620px;
+// 	height: 570px;
+// }
 .df-dating{
 	padding: 65px 0;
 	text-align: center;
@@ -174,7 +182,8 @@
 		display: inline-block;	
 		margin: 0 auto;
 		text-align: center;
-		.df-img2{			
+		.df-img2{
+			display: none;			
 			margin: 0 auto;
 			// width: 620px;
 			// height: 570px;
@@ -184,7 +193,7 @@
 				width: 100%;
 				height: auto;
 			} 			
-		}
+		}		
 		.df-img-little{	
 			margin-top: 2px;
 			display: none;			

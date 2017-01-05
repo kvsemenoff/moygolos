@@ -1,3 +1,4 @@
+
 <div class="my-container">
 	<div class="df-dating">
 		<h3>Давайте знакомиться</h3>
@@ -5,6 +6,16 @@
 			<div class="df-img2">
 				<!-- <img src="img/df-img-dating.jpg" alt="" class="img-responsive"> -->
 			</div>
+			
+			<div id="owl-demo">
+				<div class="item">
+					<div class="df-img-slider">
+						<img src="img/df-img-dating.jpg" alt="" class="img-responsive">					
+					</div>					
+				</div>				
+			</div>
+			
+		
 			<div class="df-img-little">
 				<div><a href="img/df-img-dating.jpg"><img src="img/df-img-dating1.jpg" alt=""></a></div>
 				<div><a href="img/df-img-dating2.jpg"><img src="img/df-img-dating2.jpg" alt=""></a></div>
@@ -41,3 +52,4 @@
 		<div class="clear"></div>
 	</div>
 </div>
+			
