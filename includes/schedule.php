@@ -300,7 +300,7 @@
 <script type="text/javascript">
 	$( document ).ready(function() {
         var MIN_WIDTH = 600;
-        var MIN_HEIGHT = 500;
+        var MIN_HEIGHT = 400;
 
         function get_size(){
         	var width = $( window  ).width();
