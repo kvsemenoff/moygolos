@@ -465,6 +465,28 @@
         background-size: cover;
         padding-bottom: 100px;
     }
+
+    .dc-container {
+    	overflow:hidden;
+    	width:98%;
+    }
+    
+    .dc-box {
+    	white-space:nowrap
+    }
+    
+    .dc-box div {
+    	width:10.57%;
+    	height:6.2%;
+    	display:inline-block;
+    	border:1px solid white
+    }
+
+    .dc-box div img {
+    	display:inline-block;
+    	width:100%;
+    	height:100%;
+    }
 }
 
 @media only screen and (min-width : 1248px) {
