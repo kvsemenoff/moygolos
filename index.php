@@ -43,7 +43,7 @@
 	<?php require_once('includes/testimonials.php'); ?>
 	<?php require_once('includes/sledite_za_nami.php'); ?>
 	<?php require_once('includes/vistuplenie.php'); ?>
-	
+	<?php require_once('includes/prepods.php'); ?>
 	<?php require_once('includes/how.php'); ?>
 	<?php require_once('includes/map.php'); ?>
 

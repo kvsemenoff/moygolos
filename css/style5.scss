@@ -156,6 +156,8 @@
 /*====our-dating=======*/
 .df-dating{
 	padding: 65px 0;
+	text-align: center;
+	margin: 0 auto;
 	h3{
 		font-size: 34px;
 		color:#383838;
@@ -167,9 +169,9 @@
 	}
 	.df-left-box{
 		// float: left;
-		max-width: 620px;
-		width: 100%;
-		outline: 1px solid red;
+		// max-width: 620px;
+		// width: 100%;	
+		display: inline-block;	
 		margin: 0 auto;
 		text-align: center;
 		.df-img2{			
@@ -224,7 +226,7 @@
 	}
 	.df-right-box{
 		// float: right;
-		outline: 1px solid red;
+		display: inline-block;		
 		max-width: 555px;
 		width: 100%;
 		text-align: left;
@@ -237,7 +239,7 @@
 			padding: 14px 0px;
 			text-align: center;
 			display: block;
-			background-image: url("../img/df-bg-span.png");
+			background-image: url("../img/df-bg-span-sm.png");
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -260,33 +262,44 @@
 				font-size: 22px;
 				line-height: 35px;
 				margin-bottom: 15px;
+				letter-spacing: -0.5px;
 			}
 		}
 		.df-show-all{
-			display: block;
-			text-align: left;
+			display: none;
+			text-align: right;
 			font-size: 22px;
 			color:#24a0fb;
-			font-family: "MuseoSansCyrl300";
-			padding-left: 47px;
+			font-family: "MuseoSansCyrl500";
+			margin-left: 75px;
+			border-bottom: 1px dashed #24a0fb;	
+			margin-top: 10px;
+			letter-spacing: -0.4px;		
+		}
+		.df-show-all:hover{
+			border-bottom: 1px dashed rgba(0,0,0,0);
 		}
 	}
 	.df-left-float{
 		// float: left;
-		display: block;
-		max-width: 620px;
-		width: 100%;
+		// display: block;
+		// max-width: 620px;
+		// width: 100%;
+		display: inline-block;
 		margin: 0 auto;
 		text-align: center;
-		outline: 1px solid green;
+		
 		h4{
 			font-size: 28px;
 			color:#383838;
 			line-height: 25px;
-			font-family: "MuseoSansCyrl500";	
+			font-family: "MuseoSansCyrl300";
+			margin-bottom: 6px;	
 		}
 		span{
 			font-size: 20px;
+			padding-left: 7px;
+			letter-spacing: -0.3px;
 			color:#383838;
 			line-height: 28px;
 			display: block;
@@ -300,6 +313,7 @@
 		}
 		.df-price{
 			display: block;
+			margin-top: -9px;
 			span{
 				color:#fff;
 				text-transform: uppercase;
@@ -309,6 +323,11 @@
 				padding: 10px 10px;
 				display: inline-block;
 			}
+			em{
+				text-transform: none;
+				color:#fff;
+				padding-right: 5px;
+			}
 		}
 		a{
 			font-size: 18px;
@@ -317,7 +336,7 @@
 			font-family: "MuseoSansCyrl500";
 			background: #fde841;
 			width: 275px;
-			padding: 5px 0;
+			padding: 2px 0;
 			display: inline-block;
 			border-radius: 11px;
 			margin-top: 15px;
@@ -341,44 +360,44 @@
 
 @media only screen and (min-width : 768px) {
 			/*====our-dating=======*/
-.df-dating{
-	padding: 65px 0;
-	h3{	
-		margin: 55px 0;			
-	}
-	.df-left-box{
-		float: left;
-		max-width: 460px;
-		width: 100%;		
-		.df-img2{			
-			// width: 620px;
-			// height: 570px;						
-		}
+// .df-dating{
+// 	padding: 65px 0;
+// 	h3{	
+// 		margin: 55px 0;			
+// 	}
+// 	.df-left-box{
+// 		// float: left;
+// 		// max-width: 460px;
+// 		// width: 100%;		
+// 		.df-img2{			
+// 			// width: 620px;
+// 			// height: 570px;						
+// 		}
 		
-	}
-	.df-right-box{
-		float:right;		
-		// max-width: 415px;
-		// width: 100%;	
-		// max-width: unset;
+// 	}
+// 	.df-right-box{
+// 		// float:right;		
+// 		// max-width: 415px;
+// 		// width: 100%;	
+// 		// max-width: unset;
 
-		width: 415px;	
-		.df-span{			
-			padding: 15px 10px;			
-		}
-		.df-ulli{			
-			padding-left: 20px;			
-		}		
-	}
-	.df-left-float{
-		float: left;
-		display: block;
-		max-width: 460px;
-		width: 100%;
-		margin: 0 auto;
-		text-align: center;		
-	}
-}
+// 		// width: 415px;	
+// 		.df-span{			
+// 			padding: 15px 10px;			
+// 		}
+// 		.df-ulli{			
+// 			padding-left: 20px;			
+// 		}		
+// 	}
+// 	.df-left-float{
+// 		// float: left;
+// 		// display: block;
+// 		// max-width: 460px;
+// 		// width: 100%;
+// 		margin: 0 auto;
+// 		text-align: center;		
+// 	}
+// }
 
 }
 
@@ -390,33 +409,35 @@
 @media only screen and (min-width : 1070px) {
 			/*====our-dating=======*/
 .df-dating{
-	padding: 65px 0;
+	padding: 65px 0px 65px 12px;
 	h3{	
 		margin: 55px 0;			
 	}
 	.df-left-box{
 		float: left;
 		max-width: 620px;
-		width: 100%;		
+		width: 100%;
+		padding-top: 5px;		
 		.df-img2{			
-			width: 620px;
-			height: 570px;						
-		}
-		.df-img-little{	
-			margin-top: 2px;
-			display: block;           
-		}
+			width: 611px;
+			height: 576px;
+			img{
+				width: 100%;
+				height: 100%;
+			}						
+		}		
 	}
 	.df-right-box{
 		float: right;		
 		max-width: 555px;
-		width: 100%;
-		
+		width: 100%;			
 		.df-span{			
-			padding: 15px 10px;			
+			padding: 15px 10px;	
+			margin-top: 1px;
+			background-image: url("../img/df-bg-span.png");			
 		}
 		.df-ulli{			
-			padding-left: 20px;			
+			padding:15px 20px 0 47px;			
 		}		
 	}
 	.df-left-float{
@@ -425,7 +446,8 @@
 		max-width: 620px;
 		width: 100%;
 		margin: 0 auto;
-		text-align: center;		
+		text-align: center;
+		padding-top: 20px;		
 	}
 }
 }
@@ -457,8 +479,20 @@
 			}
 		}
 
-
-
+			/*====our-dating=======*/
+.df-dating{	
+	.df-left-box{
+		.df-img-little{	
+			margin-top: 2px;
+			display: block;           
+		}
+	}
+	.df-right-box{		
+		.df-show-all{
+			display: inline-block;
+		}
+	}	
+}	
 
 
 
