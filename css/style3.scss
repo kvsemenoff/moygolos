@@ -255,7 +255,7 @@ td {
 }
 
 .dc-want {
-    padding-top: 70px;
+    padding-top: 30px;
     b {        
         font-family: "lato-heavy";
 		font-size: 34px;
@@ -269,6 +269,9 @@ td {
 	background-color: #dff1fe;
 	color: #686868;
 	border-radius: 10px;
+	box-sizing: border-box;
+	border: none;
+	padding: 0 10px;
 }
 
 .dc-input {

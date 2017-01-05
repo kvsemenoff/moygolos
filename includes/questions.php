@@ -1,6 +1,6 @@
 <div class="dc-questions">
     <center>
-        <h2 class="db-h-content dc-white_color">
+        <h2 class="db-h-content dc-white_color" style="padding-top: 30px;">
             <b>ОСТАЛИСЬ ВОПРОСЫ?</b>
         </h2>
     </center>
@@ -23,13 +23,13 @@
         <form action="" class="form5">
             <div class="row form_fields">
                 <div class="col-md-3 col-xs-12 col-lg-3 col-sm-6">
-                    <input type="text" name="dc-name" class="dc-input" placeholder="    Как Вас зовут? *">
+                    <input type="text" name="dc-name" class="dc-input" placeholder="Как Вас зовут? *">
                 </div>
                 <div class="col-md-3 col-xs-12 col-lg-3 col-sm-6">
-                    <input type="text" name="dc-phone" class="dc-input" placeholder="    Телефон *">
+                    <input type="text" name="dc-phone" class="dc-input" placeholder="Телефон *">
                 </div>
                 <div class="col-md-3 col-xs-12 col-lg-3 col-sm-6">
-                    <input type="text" name="dc-email" class="dc-input" placeholder="    Primer">
+                    <input type="text" name="dc-email" class="dc-input" placeholder="Primer">
                 </div>
                 <div class="col-md-3 col-xs-12 col-lg-3 col-sm-6">
                     <input type="submit" value="Задать вопрос" class="dc-button">
