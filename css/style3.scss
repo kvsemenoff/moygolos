@@ -163,7 +163,7 @@
 			color:#383838;
 			text-transform: uppercase;
 			text-align: center;	
-			margin: 25px 0 25px 0;	
+			margin: 225px 0 25px 0;	
 			font-family: "lato-heavy";
 		}
 	}
@@ -197,9 +197,18 @@
     .dc-want_to_you {
 		background-image: url("../img/want_to_you.jpg");
         background-size: auto;
-        min-height: 691px;
+        height: 621px;
         margin: 0 auto;
         width: 100%;
+    }
+
+    .dc-questions {
+		background-image: url("../img/want_to_you.jpg");
+        background-size: auto;
+        height: 721px;
+        margin: 0 auto;
+        width: 100%;
+        padding-bottom: 100px;
     }
 
     .dc-want {
@@ -251,24 +260,10 @@
     }
 
 @media only screen and (min-width : 320px) {
-    .dc-want_to_you {
-		background-image: url("../img/want_to_you.jpg");
-        background-size: auto;
-        margin: 0 auto;
-        max-height: 330px;
-        width: 100%;
-    }
-
 }
 
 @media only screen and (min-width : 480px) {
-    .dc-want_to_you {
-		background-image: url("../img/want_to_you.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        max-height: 330px;
-        width: 100%;
-    }
+
 }
 
 @media only screen and (min-width : 768px) {
@@ -311,6 +306,23 @@
 
 	.borderless td, .borderless th {
         border: none;
+    }
+
+    .dc-want_to_you {
+		background-image: url("../img/want_to_you.jpg");
+        background-size: auto;
+        height: 421px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .dc-questions {
+		background-image: url("../img/want_to_you.jpg");
+        background-size: auto;
+        height: 421px;
+        margin: 0 auto;
+        width: 100%;
+        padding-bottom: 100px;
     }
 }
 
@@ -440,11 +452,19 @@
     .dc-want_to_you {
 		background-image: url("../img/want_to_you.jpg");
         background-repeat: no-repeat;
-        max-height: 291px;
+        height: 291px;
         width: 100%;
         background-size: cover;
     }
 
+    .dc-questions {
+		background-image: url("../img/want_to_you.jpg");
+        background-repeat: no-repeat;
+        height: 291px;
+        width: 100%;
+        background-size: cover;
+        padding-bottom: 100px;
+    }
 }
 
 @media only screen and (min-width : 1248px) {

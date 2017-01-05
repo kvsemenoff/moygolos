@@ -1,13 +1,13 @@
 <div class="dc-want_to_you">
     <center>
         <h3 class="dc-want dc-white_color">
-            <b>ХОЧУ В ВАМ!</b>
+            <b>ХОЧУ К В ВАМ!</b>
         </h3>
     </center>
 
     <center>
-    <form action="demo_form.asp">
-        <div class="row">
+    <form action="">
+        <div class="row form_fields">
             <div class="col-md-3 col-xs-12 col-lg-3 col-sm-6">
                 <input type="text" name="dc-name" class="dc-input" placeholder="    Как Вас зовут? *">
             </div>
