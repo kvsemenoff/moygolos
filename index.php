@@ -45,6 +45,8 @@
 	<?php require_once('includes/vistuplenie.php'); ?>
 	
 	<?php require_once('includes/map.php'); ?>
+
+    <?php require_once('includes/questions.php'); ?>
 	
 	<?php require_once('includes/footer.php'); ?>
 
