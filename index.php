@@ -44,6 +44,7 @@
 	<?php require_once('includes/sledite_za_nami.php'); ?>
 	<?php require_once('includes/vistuplenie.php'); ?>
 	
+	<?php require_once('includes/how.php'); ?>
 	<?php require_once('includes/map.php'); ?>
 
     <?php require_once('includes/questions.php'); ?>
