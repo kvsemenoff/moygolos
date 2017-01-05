@@ -143,12 +143,22 @@ font-family: "lato-heavy";
 		}
 	}
 	
+	.db-all-result-block1{
+		margin-left:-13px !important;
+		// outline: 1px solid red;
+		width:511px;
+	}
+	.db-all-result-block2{
+		margin-left:36px !important;
+		// outline: 1px solid red;
+		
+	}
 	.db-result-block{
 		// outline: 1px solid red;
-		max-width:500px;
+		max-width: 511px;
 		margin:0 auto;
 		padding:20px 10px;
-		margin-left: -26px;
+	
 	.db-result-block-one{
 		// outline: 1px solid red;
 		float:left;
