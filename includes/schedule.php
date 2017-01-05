@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <div class="dc-schedule">
     <center>
@@ -222,7 +223,7 @@
     </tbody>
 </table>
 
-<table id="dc-my_small_table" class="table table-responsive table-bordered dc-schedule_table">
+<table id="dc-my_small_table" class="table table-bordered table-responsive  dc-schedule_table">
     <thead>
 	    <tr>
 	        <th class="dc-table_header1 dc-white_color">Название курса</th>
@@ -308,13 +309,13 @@
             console.log(width, height);
 
             // Скрыть большую таблицу при маленьком экране
-            if (width < MIN_WIDTH || height < MIN_HEIGHT) {console.log('s');
+            if (width < MIN_WIDTH || height < MIN_HEIGHT) {
                 $("#dc-my_table").hide();
                 $("#dc-my_small_table").show();
             }
 
             // Показать большую таблицу при большом экране
-            if (width >= MIN_WIDTH && height >= MIN_HEIGHT) {console.log('b');
+            if (width >= MIN_WIDTH && height >= MIN_HEIGHT) {
             	$("#dc-my_small_table").hide();
                 $("#dc-my_table").show();
             }
