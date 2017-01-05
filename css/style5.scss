@@ -154,14 +154,32 @@
 
 
 /*====our-dating=======*/
-// .df-img-slider{
-// 	margin: 0 auto;			
-// 	text-align: center;
-// 	display: block;
-// 	outline: 5px solid red;
-// 	width: 620px;
-// 	height: 570px;
+.df-right, .df-left{
+	position: absolute;
+	right:0px; 
+	top:45%;
+	transform:translate(0, -50%);	
+	background: url("../img/df-right.png") no-repeat center;
+	width: 50px; height: 50px; background-color: #5e9ef7;
+	border-radius: 50%;	
+}
+.df-left{
+	left:0;
+	background: url("../img/df-left.png") no-repeat center;
+	background-color: #5e9ef7;
+}
+// .df-slider{
+// 	max-width: 620px;	
+// 	margin: 0 auto;
+// 	img{
+// 			width: 100%;
+// 			height: auto;
+// 		}
 // }
+.df-img-slider{
+
+}
+
 .df-dating{
 	padding: 65px 0;
 	text-align: center;
@@ -489,6 +507,9 @@
 		}
 
 			/*====our-dating=======*/
+			// #owl-demo{
+			// 		display: none;
+			// }
 .df-dating{	
 	.df-left-box{
 		.df-img-little{	
