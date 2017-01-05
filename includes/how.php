@@ -1,21 +1,21 @@
 <div class="dc-how">
     <center>
-        <h3 class="dc-welcome_schedule">
+        <h2 class="db-h-content">
             <b>КАК ПРОХОДЯТ ЗАНЯТИЯ</b>
-        </h3>
+        </h2>
     </center>
 </div>
 
 <center>
 	<div class="dc-main-photo">
-	   <img src="img/dc-how-photo1.jpg">
+	   <img src="img/dc-how-photo1.jpg" width="74%">
 	</div>
 </center>
 
 <center>
 	<div class="dc-container">
 	    <div class="dc-box">
-			<div>
+			<div >
 			    <img class="dc-photo" src="img/dc-how-photo2.jpg">
 			</div>
 
@@ -51,7 +51,7 @@
     $(document).ready(function() {
         $(".dc-photo").click(
         	function() {
-                $('.dc-main-photo').html('<img src="' + $(this).attr('src') + '" width="74%"  />');
+                $('.dc-main-photo').html('<img src="' + $(this).attr('src') + '" width="74%" height="40%" />');
         	}
         );
     });

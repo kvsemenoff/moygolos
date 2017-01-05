@@ -1,8 +1,8 @@
 <div class="dc-questions">
     <center>
-        <h3 class="dc-want dc-white_color">
+        <h2 class="db-h-content dc-white_color">
             <b>ОСТАЛИСЬ ВОПРОСЫ?</b>
-        </h3>
+        </h2>
     </center>
 
     <center>
@@ -20,7 +20,7 @@
 
     <div class="bottom_form">
         <center>
-        <form action="">
+        <form action="" class="form5">
             <div class="row form_fields">
                 <div class="col-md-3 col-xs-12 col-lg-3 col-sm-6">
                     <input type="text" name="dc-name" class="dc-input" placeholder="    Как Вас зовут? *">
