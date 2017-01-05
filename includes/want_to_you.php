@@ -6,7 +6,7 @@
     </center>
 
     <center>
-    <form action="">
+    <form action="" class="form3">
         <div class="row form_fields">
             <div class="col-md-3 col-xs-12 col-lg-3 col-sm-6">
                 <input type="text" name="dc-name" class="dc-input" placeholder="    Как Вас зовут? *">

@@ -1,14 +1,14 @@
 <div class="dc-how">
     <center>
-        <h3 class="dc-welcome_schedule">
+        <h2 class="db-h-content">
             <b>КАК ПРОХОДЯТ ЗАНЯТИЯ</b>
-        </h3>
+        </h2>
     </center>
 </div>
 
 <center>
 	<div class="dc-main-photo">
-	   <img src="img/dc-how-photo1.jpg" width="74%">
+	   <img src="img/dc-how-photo1.jpg" width="100%">
 	</div>
 </center>
 
@@ -51,7 +51,7 @@
     $(document).ready(function() {
         $(".dc-photo").click(
         	function() {
-                $('.dc-main-photo').html('<img src="' + $(this).attr('src') + '" width="74%" height="40%" />');
+                $('.dc-main-photo').html('<img src="' + $(this).attr('src') + '" width="100%" height="40%" />');
         	}
         );
     });

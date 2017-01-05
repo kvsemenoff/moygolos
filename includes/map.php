@@ -3,9 +3,9 @@
 
 <div class="dc-schedule">
     <center>
-        <h3 class="dc-welcome">
+        <h2 class="db-h-content">
             <b>ЖДЕМ ВАС В ГОСТИ :)</b>
-        </h3>
+        </h2>
     </center>
 </div>
 

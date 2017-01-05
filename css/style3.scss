@@ -35,7 +35,7 @@
 	font-weight: 800;
 	text-transform: uppercase;
 
-	font-size: 34px;
+	font-size: 24px;
     font-weight: 800;
     line-height: 16px;    
 }
@@ -80,6 +80,7 @@
 
 .dc-table_header {
      background-color: #fef7be;
+     font-family: "MuseoSansCyrl500";
 }
 
 .dc-table_header1 {
@@ -130,7 +131,7 @@
 	display: none;
 	max-width: 100%;
 	table-layout: fixed;
-	font-family: "MuseoSansCyrl1";
+	font-family: "MuseoSansCyrl500";
     line-height: 25px;
     margin: 0 auto;
 }
@@ -204,7 +205,7 @@ td {
 }
 
 .dc-table_header2 {
-	font-family: "MuseoSansCyrl1";
+	font-family: "MuseoSansCyrl500";
     font-size: 10px;
     line-height: 26px;
     font-variant: small-caps;
@@ -228,8 +229,7 @@ td {
 }
 
 #dc-course_price {
-	padding: 50px 0 50px 0;
-	padding-bottom: 50px;
+	padding: 0 0px 0 0px 0;
 }
 
 .borderless td, .borderless th {
@@ -312,7 +312,7 @@ td {
 }
 
 .dc-box div {
-	width:10.57%;
+	width:14.1%;
 	height:6.2%;
 	display:inline-block;
 	border:1px solid white
@@ -329,7 +329,7 @@ td {
 }
 
 .dc-main-photo {
-	max-height: 400px;
+	max-height: 500px;
 	overflow: hidden;
 }
 
@@ -378,7 +378,7 @@ td {
     }    
 
     .dc-table_header2 {
-    	font-family: "MuseoSansCyrl1";
+    	font-family: "MuseoSansCyrl500";
         font-size: 24px;
         line-height: 26px;
         font-variant: small-caps;
@@ -386,9 +386,9 @@ td {
 
     .dc-table_text {
 	    font-family: "lato-heavy";
-	    font-size: 24px;
+	    font-size: 16px;
 		font-weight: 800;
-		line-height: 26px;
+		line-height: 20px;
 		font-variant: small-caps;
 	}
 
@@ -438,7 +438,7 @@ td {
     }
     
     .dc-box div {
-    	width:10.57%;
+    	width:14.1%;
     	height:6.2%;
     	display:inline-block;
     	border:1px solid white
@@ -457,10 +457,12 @@ td {
 
     #dc-my_table {
     	max-width: 80%;
+    	font-family: "MuseoSansCyrl500";
     }
 
 	.dc-table_header {
          background-color: #fef7be;
+         font-family: "MuseoSansCyrl500";
 	}
 
 	.dc-schedule_table {
@@ -508,9 +510,9 @@ td {
     	max-width: 1170px;
     	margin: 0 auto;
     	table-layout: fixed;
-    	font-family: MuseoSansCyrl;
         line-height: 25px;
-        font-size: 18px;        
+        font-size: 18px;
+        font-family: "MuseoSansCyrl500";
     }
 
     .dc-price_table {
@@ -592,7 +594,7 @@ td {
 	}
 
     .dc-table_header2 {
-    	font-family: MuseoSansCyrl;
+    	font-family: "MuseoSansCyrl500";
         font-size: 24px;
         line-height: 26px;
         font-variant: small-caps;
@@ -600,15 +602,16 @@ td {
 
     .dc-table_text {
 	    font-family: "lato-heavy";
-	    font-size: 24px;
+	    font-size: 20px;
 		font-weight: 800;
-		line-height: 26px;
+		line-height: 20px;
 		font-variant: small-caps;
 	}
 
 	#dc-price-tables {
 		background-image: url("../img/dc-table-background.jpg");
         background-repeat: no-repeat;
+        height: 1300px;
 	}
 
 	#dc-course_price {
@@ -648,7 +651,7 @@ td {
     }
     
     .dc-box div {
-    	width:10.57%;
+    	width:14.1%;
     	height:6.2%;
     	display:inline-block;
     	border:1px solid white
