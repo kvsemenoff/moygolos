@@ -24,7 +24,7 @@
 			</div>
 			<div class="dd-fhone2">
 				<span>8 (912) 627-10-04</span><br>
-				<a href="#">Заказать звонок</a>
+				<a href="#log-in" name="modal">Заказать звонок</a>
 			</div>
 			<div class="clearfix"></div>
 			<div class="dd-fhone"><span>8 (912) 627-10-04</span></div>
@@ -58,7 +58,7 @@
 			</div>
 			<div class="dd-big-phone">
 				<span>8 (912) 627-10-04</span>
-				<a href="#">Заказать звонок</a>
+				<a href="#log-in" name="modal">Заказать звонок</a>
 			</div>
 		</div>
 		
@@ -79,10 +79,10 @@
 						<li><span>Дружеская атмосфера</span></li>
 						<li><span>Возможность выступить на концерте</span></li>
 					</ul>
-					<a href="#">Получить приглашение</a>
+					<a href="#log-in" name="modal">Получить приглашение</a>
 				</div>
 				<div class="dd-form">
-					<form action="#">
+					<form class="form1" action="#" method="post">
 						<div class="dd-tit">
 							<span>Заполните форму и получите</span>
 						</div>
@@ -93,7 +93,7 @@
 							план развития:<span>
 
 							<input class="dd-p" type="text" placeholder="Как вас зовут">
-							<input type="text" placeholder="Телефон">
+							<input class="phone" type="text" placeholder="Телефон">
 							<input type="text" placeholder="Email">
 							<input class="dd-sub" type="submit" value="Получить приглашение">
 						</form>
@@ -136,3 +136,32 @@
 					});
 				});
 			</script>
+
+
+			<div id="mask"></div>
+			<div id="log-in" class="window">
+				<div class="dd-form-wrap">
+					<form class="form1" action="#" method="post">
+						<div class="form-wrap-main">
+							<div class="dd-close">x</div>
+							<div class="dd-input-wrap dd-padding-bottom">
+								<input class="my-input phone" type="text" placeholder="Введите телефон" name="phone">
+								<input class="my-input" type="text" placeholder="Введите имя" name="phone">
+							</div>
+							<input class="sub" type="submit" class="form-button" name="submit" value="Заказать звонок">
+						</div>
+					</form>
+				</div>
+			</div>
+			<div id="thanks" class="window">
+				<div class="form-wrap-main">
+					<div class="dd-close">x</div>
+					<div class="form-title">
+						Спасибо за заявку!
+					</div>
+					<div class="dd-form-txt">
+						Наш менеджер свяжется с вами в ближайшее время!
+					</div>
+				</div>
+			</div>
+			<a href="#thanks" name="modal"></a>
