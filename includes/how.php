@@ -8,7 +8,7 @@
 
 <center>
 	<div class="dc-main-photo">
-	   <img src="img/dc-how-photo1.jpg" width="74%">
+	   <img src="img/dc-how-photo1.jpg" width="100%">
 	</div>
 </center>
 
@@ -51,7 +51,7 @@
     $(document).ready(function() {
         $(".dc-photo").click(
         	function() {
-                $('.dc-main-photo').html('<img src="' + $(this).attr('src') + '" width="74%" height="40%" />');
+                $('.dc-main-photo').html('<img src="' + $(this).attr('src') + '" width="100%" height="40%" />');
         	}
         );
     });
