@@ -1,4 +1,4 @@
-<div class="dc-want_to_you">
+<div class="dc-questions">
     <center>
         <h3 class="dc-want dc-white_color">
             <b>ОСТАЛИСЬ ВОПРОСЫ?</b>

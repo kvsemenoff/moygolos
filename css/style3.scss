@@ -202,6 +202,14 @@
         width: 100%;
     }
 
+    .dc-questions {
+		background-image: url("../img/want_to_you.jpg");
+        background-size: auto;
+        height: 721px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
     .dc-want {
         padding-top: 70px;
         b {        
@@ -298,6 +306,22 @@
 
 	.borderless td, .borderless th {
         border: none;
+    }
+
+    .dc-want_to_you {
+		background-image: url("../img/want_to_you.jpg");
+        background-size: auto;
+        height: 421px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .dc-questions {
+		background-image: url("../img/want_to_you.jpg");
+        background-size: auto;
+        height: 421px;
+        margin: 0 auto;
+        width: 100%;
     }
 }
 
@@ -432,6 +456,13 @@
         background-size: cover;
     }
 
+    .dc-questions {
+		background-image: url("../img/want_to_you.jpg");
+        background-repeat: no-repeat;
+        height: 291px;
+        width: 100%;
+        background-size: cover;
+    }
 }
 
 @media only screen and (min-width : 1248px) {
