@@ -2,6 +2,7 @@
 
 $(document).ready(function(){
 
+    
     $('.az-select').each(function(){
         var select = $(this);    
         var option = select.find('select option');
@@ -56,6 +57,36 @@ $(document).ready(function(){
         });
     });
     $('.df-img-little a:first').click();
+
+
+
+       var owl = $("#df-owl-demo");
+
+      owl.owlCarousel({
+
+    loop:true,
+    nav:true, 
+    autoplay:false,
+    smartSpeed:1000,
+    margin:0,
+    navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
+    responsive:{
+       0:{
+          items:1
+        },       
+        1000:{
+          items:1
+        },
+         1248:{
+          items:1
+        }
+    }
+     
+  });
+
+
+
+
  });
 
 

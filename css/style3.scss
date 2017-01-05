@@ -42,6 +42,7 @@
 
 .dc-price {
 	margin-top: 50px;
+	margin-bottom: 50px;
     width: 685px;
 
 	color: #383838;
@@ -51,9 +52,8 @@
 
 	font-size: 34px;
     font-weight: 800;
-    line-height: 16px;    
+    line-height: 16px; 
 }
-
 
 .dc-address {
 	width: 685px;
@@ -136,8 +136,26 @@
     }
 
     .dc-price_table {
-        margin: 0 auto;	
+        margin: 50px 50px 50px 50px auto;	
+        td {
+        	padding: 10px 10px 10px 10px;
+        }
+
+        .large_1st_column {
+        	width: 30%;
+        }
     }
+
+    .dc-price_table_group {
+        margin: 50px 50px 50px 50px auto;	
+        td {
+        	padding: 10px 10px 10px 10px;
+        } 
+        .large_1st_column {
+        	width: 30%;
+        }                       
+    }
+
 
     #dc-my_small_table {
     	display: none;
@@ -158,12 +176,29 @@
 		text-align: center;
 		margin: 0 auto;
 		font-family: "lato-heavy";
+		margin-top: 100px;
+		margin-bottom: 50px;		
 		h3{
 			font-size: 24px;
 			color:#383838;
 			text-transform: uppercase;
 			text-align: center;	
-			margin: 25px 0 25px 0;	
+			margin: 225px 0 25px 0;	
+			font-family: "lato-heavy";
+		}
+	}
+
+	.dc-how {
+		text-align: center;
+		margin: 0 auto;
+		font-family: "lato-heavy";
+        margin-bottom: 50px;		
+		h3{
+			font-size: 24px;
+			color:#383838;
+			text-transform: uppercase;
+			text-align: center;	
+			margin: 225px 0 25px 0;	
 			font-family: "lato-heavy";
 		}
 	}
@@ -187,7 +222,14 @@
 		background-image: url("../img/dc-table-background.jpg");
         background-repeat: no-repeat;
         padding-left: 2%;
-        padding-right: 2%;        
+        padding-right: 2%;
+        padding-top: 2%;
+        padding-bottom: 2%;        
+	}
+
+	#dc-course_price {
+		padding: 50px 0 50px 0;
+		padding-bottom: 50px;
 	}
 
 	.borderless td, .borderless th {
@@ -197,9 +239,19 @@
     .dc-want_to_you {
 		background-image: url("../img/want_to_you.jpg");
         background-size: auto;
-        min-height: 691px;
+        height: 621px;
         margin: 0 auto;
         width: 100%;
+    }
+
+    .dc-questions {
+		background-image: url("../img/want_to_you.jpg");
+        background-size: auto;
+        height: 721px;
+        margin: 0 auto;
+        width: 100%;
+        padding-bottom: 100px;
+        margin-top: 100px;
     }
 
     .dc-want {
@@ -250,25 +302,35 @@
 		line-height: 41px;
     }
 
-@media only screen and (min-width : 320px) {
-    .dc-want_to_you {
-		background-image: url("../img/want_to_you.jpg");
-        background-size: auto;
-        margin: 0 auto;
-        max-height: 330px;
-        width: 100%;
+    .dc-container {
+    	overflow:hidden;
+    	width:98%;
+    }
+    
+    .dc-box {
+    	white-space:nowrap
+    }
+    
+    .dc-box div {
+    	width:10.57%;
+    	height:6.2%;
+    	display:inline-block;
+    	border:1px solid white
     }
 
+    .dc-box div img {
+    	display:inline-block;
+    	width:100%;
+    	height:100%;
+    }
+
+    .dc-box div img:hover {cursor: url("../img/zoom_in.cur")}
+
+@media only screen and (min-width : 320px) {
 }
 
 @media only screen and (min-width : 480px) {
-    .dc-want_to_you {
-		background-image: url("../img/want_to_you.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        max-height: 330px;
-        width: 100%;
-    }
+
 }
 
 @media only screen and (min-width : 768px) {
@@ -277,12 +339,29 @@
 		text-align: center;
 		margin: 0 auto;
 		font-family: "lato-heavy";
+		margin-top: 100px;
+		margin-bottom: 50px;
 		h3{
 			font-size: 34px;
 			color:#383838;
 			text-transform: uppercase;
 			text-align: center;	
 			margin: 25px 0 25px 0;	
+			font-family: "lato-heavy";
+		}
+    }    
+
+	.dc-how {
+		text-align: center;
+		margin: 0 auto;
+		font-family: "lato-heavy";
+        margin-bottom: 50px;		
+		h3{
+			font-size: 34px;
+			color:#383838;
+			text-transform: uppercase;
+			text-align: center;	
+			margin: 125px 0 25px 0;	
 			font-family: "lato-heavy";
 		}
     }    
@@ -307,11 +386,60 @@
         background-repeat: no-repeat;
         padding-left: 2%;
         padding-right: 2%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+	}
+
+	#dc-course_price {
+		padding: 50px 0 50px 0;
+		padding-bottom: 50px;
 	}
 
 	.borderless td, .borderless th {
         border: none;
     }
+
+    .dc-want_to_you {
+		background-image: url("../img/want_to_you.jpg");
+        background-size: auto;
+        height: 421px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .dc-questions {
+		background-image: url("../img/want_to_you.jpg");
+        background-size: auto;
+        height: 421px;
+        margin: 0 auto;
+        width: 100%;
+        padding-bottom: 100px;
+        margin-top: 100px;
+    }
+
+    .dc-container {
+    	overflow:hidden;
+    	width:98%;
+    }
+    
+    .dc-box {
+    	white-space:nowrap
+    }
+    
+    .dc-box div {
+    	width:10.57%;
+    	height:6.2%;
+    	display:inline-block;
+    	border:1px solid white
+    }
+
+    .dc-box div img {
+    	display:inline-block;
+    	width:100%;
+    	height:100%;
+    }
+
+    .dc-box div img:hover {cursor: url("../img/zoom_in.cur")}    
 }
 
 @media only screen and (min-width : 992px) {
@@ -370,9 +498,25 @@
     }
 
     .dc-price_table {
-        margin: 0 auto;
+        margin: 50px 50px 50px 50 auto;	
         max-width: 1170px;
         table-layout: fixed;
+        td {
+        	padding: 10px 10px 10px 10px;
+        }
+        .large_1st_column {
+        	width: 30%;
+        }        
+    }
+
+    .dc-price_table_group {
+        margin: 50px 50px 50px 50px auto;	
+        td {
+        	padding: 10px 10px 10px 10px;
+        }        
+        .large_1st_column {
+        	width: 30%;
+        }        
     }
 
     #dc-price-tables {
@@ -380,6 +524,8 @@
         max-width: 1170px; 
         padding-left: 2%;
         padding-right: 2%;        
+        padding-top: 2%;
+        padding-bottom: 2%;        
         h4 {
             font-family: Lato;
 			font-size: 32px;
@@ -388,6 +534,11 @@
 			font-variant: small-caps;
         }   	
     }
+
+	#dc-course_price {
+		padding: 50px 0 50px 0;
+		padding-bottom: 50px;
+	}
 
     td, th {
         width: 3%;        
@@ -403,12 +554,29 @@
 		text-align: center;
 		margin: 0 auto;
 		font-family: "lato-heavy";
+		margin-top: 100px;		
+		margin-bottom: 50px;		
 		h3{
 			font-size: 34px;
 			color:#383838;
 			text-transform: uppercase;
 			text-align: center;	
 			margin: 25px 0 25px 0;	
+			font-family: "lato-heavy";
+		}
+	}
+
+    .dc-how {
+		text-align: center;
+		margin: 0 auto;
+		font-family: "lato-heavy";
+        margin-bottom: 50px;		
+		h3{
+			font-size: 34px;
+			color:#383838;
+			text-transform: uppercase;
+			text-align: center;	
+			margin: 125px 0 25px 0;	
 			font-family: "lato-heavy";
 		}
 	}
@@ -433,6 +601,11 @@
         background-repeat: no-repeat;
 	}
 
+	#dc-course_price {
+		padding: 50px 0 50px 0;
+		padding-bottom: 50px;
+	}
+
 	.borderless td, .borderless th {
         border: none;
     }
@@ -440,11 +613,44 @@
     .dc-want_to_you {
 		background-image: url("../img/want_to_you.jpg");
         background-repeat: no-repeat;
-        max-height: 291px;
+        height: 291px;
         width: 100%;
         background-size: cover;
     }
 
+    .dc-questions {
+		background-image: url("../img/want_to_you.jpg");
+        background-repeat: no-repeat;
+        height: 291px;
+        width: 100%;
+        background-size: cover;
+        padding-bottom: 100px;
+        margin-top: 100px;        
+    }
+
+    .dc-container {
+    	overflow:hidden;
+    	width:98%;
+    }
+    
+    .dc-box {
+    	white-space:nowrap
+    }
+    
+    .dc-box div {
+    	width:10.57%;
+    	height:6.2%;
+    	display:inline-block;
+    	border:1px solid white
+    }
+
+    .dc-box div img {
+    	display:inline-block;
+    	width:100%;
+    	height:100%;
+    }
+
+    .dc-box div img:hover {cursor: url("../img/zoom_in.cur")}
 }
 
 @media only screen and (min-width : 1248px) {

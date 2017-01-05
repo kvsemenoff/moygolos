@@ -1,10 +1,4 @@
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-
-
 <div class="dc-schedule">
     <center>
         <h3 class="dc-welcome_schedule">
