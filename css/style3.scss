@@ -139,15 +139,23 @@
         margin: 50px 50px 50px 50px auto;	
         td {
         	padding: 10px 10px 10px 10px;
-        }        
+        }
+
+        .large_1st_column {
+        	width: 30%;
+        }
     }
 
     .dc-price_table_group {
         margin: 50px 50px 50px 50px auto;	
         td {
         	padding: 10px 10px 10px 10px;
-        }        
+        } 
+        .large_1st_column {
+        	width: 30%;
+        }                       
     }
+
 
     #dc-my_small_table {
     	display: none;
@@ -449,12 +457,18 @@
         td {
         	padding: 10px 10px 10px 10px;
         }
+        .large_1st_column {
+        	width: 30%;
+        }        
     }
 
     .dc-price_table_group {
         margin: 50px 50px 50px 50px auto;	
         td {
         	padding: 10px 10px 10px 10px;
+        }        
+        .large_1st_column {
+        	width: 30%;
         }        
     }
 
