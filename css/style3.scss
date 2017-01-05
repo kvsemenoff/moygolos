@@ -324,9 +324,7 @@ td {
 	height:100%;
 }
 
-.dc-box:hover {
-	cursor: url("../img/zoom_in.cur");
-}
+.dc-box div img:hover {cursor: zoom-in;}
 
 .dc-main-photo {
 	max-height: 500px;
@@ -663,9 +661,7 @@ td {
     	height:100%;
     }
 
-    .dc-box:hover {
-    	cursor: url("../img/zoom_in.cur")
-    }
+    .dc-box div img:hover {cursor: zoom-in;}
 }
 
 @media only screen and (min-width : 1248px) {
