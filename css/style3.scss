@@ -74,7 +74,7 @@
 		text-transform: uppercase;
 		text-align: center;	
 		margin: 25px 0 25px 0;	
-		font-family: ""lato-heavy"-heavy";
+		font-family: ""lato-heavy";
 	}
 }
 
@@ -175,7 +175,7 @@
 	.dc-schedule {
 		text-align: center;
 		margin: 0 auto;
-		font-family: ""lato-heavy"-heavy";
+		font-family: "lato-heavy";
 		margin-top: 100px;
 		margin-bottom: 50px;		
 		h3{
@@ -184,22 +184,22 @@
 			text-transform: uppercase;
 			text-align: center;	
 			margin: 225px 0 25px 0;	
-			font-family: ""lato-heavy"-heavy";
+			font-family: "lato-heavy";
 		}
 	}
 
 	.dc-how {
 		text-align: center;
 		margin: 0 auto;
-		font-family: ""lato-heavy"-heavy";
+		font-family: "lato-heavy";
         margin-bottom: 50px;		
 		h3{
 			font-size: 24px;
 			color:#383838;
 			text-transform: uppercase;
 			text-align: center;	
-			margin: 225px 0 25px 0;	
-			font-family: ""lato-heavy"-heavy";
+			margin: 125px 0 25px 0;	
+			font-family: ""lato-heavy";
 		}
 	}
 
@@ -324,7 +324,17 @@
     	height:100%;
     }
 
-    .dc-box div img:hover {cursor: url("../img/zoom_in.cur")}
+    .dc-box:hover {
+    	cursor: url("../img/zoom_in.cur");
+    }
+
+    .dc-main-photo {
+    	max-height: 400px;
+    	overflow: hidden;
+    	img {
+    		
+    	}
+    }
 
 @media only screen and (min-width : 320px) {
 }
@@ -338,7 +348,7 @@
 	.dc-schedule {
 		text-align: center;
 		margin: 0 auto;
-		font-family: ""lato-heavy"-heavy";
+		font-family: "lato-heavy";
 		margin-top: 100px;
 		margin-bottom: 50px;
 		h3{
@@ -347,14 +357,14 @@
 			text-transform: uppercase;
 			text-align: center;	
 			margin: 25px 0 25px 0;	
-			font-family: ""lato-heavy"-heavy";
+			font-family: "lato-heavy";
 		}
     }    
 
 	.dc-how {
 		text-align: center;
 		margin: 0 auto;
-		font-family: ""lato-heavy"-heavy";
+		font-family: "lato-heavy";
         margin-bottom: 50px;		
 		h3{
 			font-size: 34px;
@@ -362,7 +372,7 @@
 			text-transform: uppercase;
 			text-align: center;	
 			margin: 125px 0 25px 0;	
-			font-family: ""lato-heavy"-heavy";
+			font-family: "lato-heavy";
 		}
     }    
 
@@ -454,7 +464,12 @@
 
 	.dc-schedule_table {
         margin: 10% auto;
+        
 	}
+
+	.dc-schedule_table td {
+             border-color: black;
+    }
 
 	.dc-cyan {
 		background-color: #00d2d4;
@@ -553,7 +568,7 @@
     .dc-schedule {
 		text-align: center;
 		margin: 0 auto;
-		font-family: ""lato-heavy"-heavy";
+		font-family: "lato-heavy";
 		margin-top: 100px;		
 		margin-bottom: 50px;		
 		h3{
@@ -562,14 +577,14 @@
 			text-transform: uppercase;
 			text-align: center;	
 			margin: 25px 0 25px 0;	
-			font-family: ""lato-heavy"-heavy";
+			font-family: "lato-heavy";
 		}
 	}
 
     .dc-how {
 		text-align: center;
 		margin: 0 auto;
-		font-family: ""lato-heavy"-heavy";
+		font-family: "lato-heavy";
         margin-bottom: 50px;		
 		h3{
 			font-size: 34px;
@@ -577,7 +592,7 @@
 			text-transform: uppercase;
 			text-align: center;	
 			margin: 125px 0 25px 0;	
-			font-family: ""lato-heavy"-heavy";
+			font-family: "lato-heavy";
 		}
 	}
 
