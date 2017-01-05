@@ -16,6 +16,10 @@ a:hover{
 /* Шапка и меню для декстопа
 =============================*/
 
+.error-input{
+	border:1px solid red !important;
+}
+
 .dd-header-wrap{
 	width: 100%;
 	background:url(../img/headbg.jpg) no-repeat top center;

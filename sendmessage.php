@@ -1,5 +1,5 @@
 <?php
-$to = "sinnapsteam@yandex.ru ";
+$to = "test@yandex.ru ";
 $phone = $_POST['phone'];
 $email = $_POST['email'];
 $uname = $_POST['uname'];

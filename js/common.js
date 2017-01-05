@@ -131,8 +131,8 @@ $(document).ready(function(){
         }
         return false;
     });
-    $(".form1 .dd-forma a").click(function() { 
-        var tel = $(".form2").find('input[name="phone"]');
+   $(".form2").submit(function() { 
+        var tel = $(this).find('input[name="phone"]');
         var empty = false;
         if (tel.val() == ""){
             empty = true;
@@ -141,19 +141,18 @@ $(document).ready(function(){
             tel.addClass("error-input");
             tel.focus();
         }else{
-            var form_data = $(".form2").serialize(); 
+            var form_data = $(this).serialize(); 
             $.ajax({
                 type: "POST", 
                 url: "/sendmessage.php", 
                 data: form_data,
                 success: function() {
-                    cleanTnanks(".form2");
+                    cleanTnanks(this);
                 }
             });
         }
         return false;
     });
-
     function cleanTnanks(form){
         $('input[type="text"]').removeClass("error-input");
         $("input[type=text], textarea").val("");
