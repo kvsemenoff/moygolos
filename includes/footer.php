@@ -6,11 +6,11 @@
 		</div>
 		<div class="db-footer-text">
 			Уроки вокала и речи в Екатеринбурге<br>
-			<span>ул. Декабристов 20, офис 413</span>
+			<span>ул. Декабристов 20, офис 13</span>
 		</div>
 		<div class="db-footer-phone">
 			<span>8 (912) 627-10-04</span><br>
-			<a href="#">Заказать звонок</a>
+			<a href="#log-in" name="modal">Заказать звонок</a>
 		</div>
 		<div class="clearfix"></div>
 	</div>	
