@@ -312,7 +312,7 @@ td {
 }
 
 .dc-box div {
-	width:14.1%;
+	width:14.15%;
 	height:6.2%;
 	display:inline-block;
 	border:1px solid white
@@ -438,7 +438,7 @@ td {
     }
     
     .dc-box div {
-    	width:14.1%;
+    	width:14.15%;
     	height:6.2%;
     	display:inline-block;
     	border:1px solid white
@@ -450,7 +450,7 @@ td {
     	height:100%;
     }
 
-    .dc-box div img:hover {cursor: url("../img/zoom_in.cur")}    
+    .dc-box div img:hover {cursor: zoom-in;}
 }
 
 @media only screen and (min-width : 992px) {
@@ -651,7 +651,7 @@ td {
     }
     
     .dc-box div {
-    	width:14.1%;
+    	width:14.15%;
     	height:6.2%;
     	display:inline-block;
     	border:1px solid white
@@ -663,7 +663,9 @@ td {
     	height:100%;
     }
 
-    .dc-box div img:hover {cursor: url("../img/zoom_in.cur")}
+    .dc-box:hover {
+    	cursor: url("../img/zoom_in.cur")
+    }
 }
 
 @media only screen and (min-width : 1248px) {
