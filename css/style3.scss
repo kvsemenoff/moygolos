@@ -80,6 +80,7 @@
 
 .dc-table_header {
      background-color: #fef7be;
+     font-family: "MuseoSansCyrl500";
 }
 
 .dc-table_header1 {
@@ -130,7 +131,7 @@
 	display: none;
 	max-width: 100%;
 	table-layout: fixed;
-	font-family: "MuseoSansCyrl1";
+	font-family: "MuseoSansCyrl500";
     line-height: 25px;
     margin: 0 auto;
 }
@@ -204,7 +205,7 @@ td {
 }
 
 .dc-table_header2 {
-	font-family: "MuseoSansCyrl1";
+	font-family: "MuseoSansCyrl500";
     font-size: 10px;
     line-height: 26px;
     font-variant: small-caps;
@@ -378,7 +379,7 @@ td {
     }    
 
     .dc-table_header2 {
-    	font-family: "MuseoSansCyrl1";
+    	font-family: "MuseoSansCyrl500";
         font-size: 24px;
         line-height: 26px;
         font-variant: small-caps;
@@ -457,10 +458,12 @@ td {
 
     #dc-my_table {
     	max-width: 80%;
+    	font-family: "MuseoSansCyrl500";
     }
 
 	.dc-table_header {
          background-color: #fef7be;
+         font-family: "MuseoSansCyrl500";
 	}
 
 	.dc-schedule_table {
@@ -508,9 +511,9 @@ td {
     	max-width: 1170px;
     	margin: 0 auto;
     	table-layout: fixed;
-    	font-family: MuseoSansCyrl;
         line-height: 25px;
-        font-size: 18px;        
+        font-size: 18px;
+        font-family: "MuseoSansCyrl500";
     }
 
     .dc-price_table {
@@ -592,7 +595,7 @@ td {
 	}
 
     .dc-table_header2 {
-    	font-family: MuseoSansCyrl;
+    	font-family: "MuseoSansCyrl500";
         font-size: 24px;
         line-height: 26px;
         font-variant: small-caps;
