@@ -1,4 +1,11 @@
 
+  <script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <script src="icon_customImage.js" type="text/javascript"></script>
+  <style>
+        html, body, #map {
+            width: 100%; height: 555px; padding: 0; margin: 0;
+        }
+  </style>
 
 
 <div class="dc-schedule">
@@ -9,41 +16,58 @@
     </center>
 </div>
 
+<span class="dc-address">
+    <center>        
+        <img src="img/marker.png">
+        <b>ЕКАТЕРИНБУРГ, УЛ. ДЕКАБРИСТОВ 20, 4 ЭТАЖ, ОФИС 413</b>
+    </center>
+</span>
 
+<div class="container">
+    <div id="map"></div>
+</div>
+ 
+<script type="text/javascript">
+ ymaps.ready(function () {
+    var MIN_WIDTH = 600;
+    var MIN_HEIGHT = 400;
 
-    <span class="dc-address">
-        <center>        
-            <img src="img/marker.png">
-            <b>ЕКАТЕРИНБУРГ, УЛ. ДЕКАБРИСТОВ 20, 4 ЭТАЖ, ОФИС 413</b>
-        </center>
-    </span>
+    var width = $(window).width();
+    var height = $(window).height();
 
+    var coords = [56.824617, 60.621011];
 
-<div id="dc-map"></div>
+    console.log(width, height);
 
-<script>
-
-    var map;
-
-    var myLatLng = {lat: 56.824423, lng: 60.618930}
-    var myLatLng1 = {lat: 56.824617, lng: 60.621011}
-
-    function initMap() {
-      map = new google.maps.Map(document.getElementById('dc-map'), {
-        center: myLatLng1,
-        zoom: 17,
-        scrollwheel:  false
-      });
-      
-      var image = "img/marker.png";
-      var marker = new google.maps.Marker({
-        position: myLatLng,
-        map: map,
-        icon: image
-      });
-
+    // Скрыть большую таблицу при маленьком экране
+    if (width < MIN_WIDTH || height < MIN_HEIGHT) {
+        coords = [56.824423, 60.618930];
     }
 
+    var myMap = new ymaps.Map('map', {
+            center: coords,
+            zoom: 17
+        }, {
+            searchControlProvider: 'yandex#search'
+        }),
+        myPlacemark = new ymaps.Placemark([56.824423, 60.618930], {
+            hintContent: 'ЕКАТЕРИНБУРГ, УЛ. ДЕКАБРИСТОВ 20, 4 ЭТАЖ, ОФИС 413',
+            balloonContent: 'ЖДЕМ ВАС В ГОСТИ'
+        }, {
+            // Опции.
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: 'img/marker.png',
+            // Размеры метки.
+            iconImageSize: [30, 42],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            iconImageOffset: [-5, -38]
+        });
+
+    myMap.geoObjects.add(myPlacemark);
+    myMap.behaviors.disable('scrollZoom');
+}); 
+  
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgR50HZjEiNxWZy2_KxvELdCS6PXZfvlU&callback=initMap"
-        async defer></script>
