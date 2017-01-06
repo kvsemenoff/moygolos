@@ -12,6 +12,9 @@
 .center{
 	text-align: center;
 }
+input{
+	outline: none !important;
+}
 h2{
 	color: #383838;
 	font-size: 25px;
@@ -85,6 +88,7 @@ h2{
 		}
 	}
 }
+
 .testimonials__img-box{
 	width: 100%;
 	text-align: center;
