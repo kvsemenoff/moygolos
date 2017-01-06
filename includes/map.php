@@ -1,4 +1,11 @@
 
+  <script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <script src="icon_customImage.js" type="text/javascript"></script>
+  <style>
+        html, body, #map {
+            width: 100%; height: 555px; padding: 0; margin: 0;
+        }
+  </style>
 
 
 <div class="dc-schedule">
@@ -9,41 +16,43 @@
     </center>
 </div>
 
+<span class="dc-address">
+    <center>        
+        <img src="img/marker.png">
+        <b>ЕКАТЕРИНБУРГ, УЛ. ДЕКАБРИСТОВ 20, 4 ЭТАЖ, ОФИС 413</b>
+    </center>
+</span>
 
+<div class="container">
+    <div id="map"></div>
+</div>
 
-    <span class="dc-address">
-        <center>        
-            <img src="img/marker.png">
-            <b>ЕКАТЕРИНБУРГ, УЛ. ДЕКАБРИСТОВ 20, 4 ЭТАЖ, ОФИС 413</b>
-        </center>
-    </span>
+<script type="text/javascript">
+ ymaps.ready(function () {
+    var myMap = new ymaps.Map('map', {
+            center: [56.824617, 60.621011],
+            zoom: 17
+        }, {
+            searchControlProvider: 'yandex#search'
+        }),
+        myPlacemark = new ymaps.Placemark([56.824423, 60.618930], {
+            hintContent: 'Собственный значок метки',
+            balloonContent: 'Это красивая метка'
+        }, {
+            // Опции.
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: 'img/marker.png',
+            // Размеры метки.
+            iconImageSize: [30, 42],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            iconImageOffset: [-5, -38]
+        });
 
-
-<div id="dc-map"></div>
-
-<script>
-
-    var map;
-
-    var myLatLng = {lat: 56.824423, lng: 60.618930}
-    var myLatLng1 = {lat: 56.824617, lng: 60.621011}
-
-    function initMap() {
-      map = new google.maps.Map(document.getElementById('dc-map'), {
-        center: myLatLng1,
-        zoom: 17,
-        scrollwheel:  false
-      });
-      
-      var image = "img/marker.png";
-      var marker = new google.maps.Marker({
-        position: myLatLng,
-        map: map,
-        icon: image
-      });
-
-    }
-
+    myMap.geoObjects.add(myPlacemark);
+    myMap.behaviors.disable('scrollZoom');
+}); 
+  
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgR50HZjEiNxWZy2_KxvELdCS6PXZfvlU&callback=initMap"
-        async defer></script>
