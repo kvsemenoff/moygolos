@@ -8,7 +8,9 @@
 					<script type="text/javascript" src="//vk.com/js/api/openapi.js?136"></script>
 					<div id="vk_groups"></div>
 					<script type="text/javascript" class="db-block-script">
-						VK.Widgets.Group("vk_groups", {mode: 3, width: "510", height: "250"}, 84915901);
+						VK.Widgets.Group("vk_groups", {mode: 3, width: "auto", height: "250"}, 84915901);
+						 window.addEventListener('load', VK_Widget_Init, false);
+    					window.addEventListener('resize', VK_Widget_Init, false);
 					</script>
 				</div>
 			

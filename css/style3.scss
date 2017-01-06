@@ -267,6 +267,10 @@ td {
 	padding: 0 10px;
 }
 
+.dc-button {
+	border: none;
+}
+
 .dc-input {
 	background-color: #dff1fe;
 	font-family: "MuseoSansCyrl1";
@@ -319,8 +323,6 @@ td {
 	width:100%;
 	height:100%;
 }
-
-.dc-box div img:hover {cursor: zoom-in;}
 
 .dc-main-photo {
 	max-height: 500px;
@@ -621,6 +623,7 @@ td {
         height: 291px;
         width: 100%;
         background-size: cover;
+        margin-top: 83px;
     }
 
     .dc-questions {
@@ -654,8 +657,6 @@ td {
     	width:100%;
     	height:100%;
     }
-
-    .dc-box div img:hover {cursor: zoom-in;}
 }
 
 @media only screen and (min-width : 1248px) {

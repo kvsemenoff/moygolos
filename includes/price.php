@@ -1,6 +1,6 @@
 <div class="dc-price1">
     <center>
-        <h2 class="db-h-content">
+        <h2 class="db-h-content" style="padding-top: 80px; padding-bottom: 80px;">
             <b>СТОИМОСТЬ ЗАНЯТИЙ</b>
         </h2>
     </center>
