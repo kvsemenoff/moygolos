@@ -26,7 +26,7 @@
 <div class="container">
     <div id="map"></div>
 </div>
-
+ 
 <script type="text/javascript">
  ymaps.ready(function () {
     var myMap = new ymaps.Map('map', {
@@ -36,8 +36,8 @@
             searchControlProvider: 'yandex#search'
         }),
         myPlacemark = new ymaps.Placemark([56.824423, 60.618930], {
-            hintContent: 'Собственный значок метки',
-            balloonContent: 'Это красивая метка'
+            hintContent: 'ЕКАТЕРИНБУРГ, УЛ. ДЕКАБРИСТОВ 20, 4 ЭТАЖ, ОФИС 413',
+            balloonContent: 'ЖДЕМ ВАС В ГОСТИ'
         }, {
             // Опции.
             // Необходимо указать данный тип макета.
