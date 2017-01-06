@@ -171,15 +171,15 @@ font-family: "lato-heavy";
 			text-align: center;
 		
 		}
-		.db-block-two{
-			// outline:1px solid red;
-			margin:0 auto;
-			padding:21px 0;
-			img{
-				width:510px;
-			}
+		// .db-block-two{
+		// 	// outline:1px solid red;
+		// 	margin:0 auto;
+		// 	padding:21px 0;
+		// 	img{
+		// 		width:510px;
+		// 	}
 			
-		}
+		// }
 	}
 }
 @media only screen and (min-width : 320px) {
@@ -396,7 +396,7 @@ font-family: "lato-heavy";
 	}
 	.db-all-content{
 	.db-all-content-block{
-		
+		// outline: 1px solid red;
 		margin:0 auto;
 		// outline:1px solid red;
 		.db-h-content{
@@ -405,12 +405,15 @@ font-family: "lato-heavy";
 		.db-block-one{
 			// outline:1px solid red;
 			    padding-left: 16px;
-			float:left;
+			// float:left;
+			// outline: 1px solid red;
+			width: 510px;
+			margin:0 auto;
 		}
-		.db-block-two{
-			// outline:1px solid red;
-			float:right;
-		}
+		// .db-block-two{
+		// 	// outline:1px solid red;
+		// 	float:right;
+		// }
 	}
 }
 
@@ -423,6 +426,7 @@ font-family: "lato-heavy";
 	padding: 65px 0;
 	font-family: "MuseoSansCyrl300";
 	margin: 0 auto;
+	
 	.db-footer-container{
 		margin: 0 auto;
 		width: 1180px;
