@@ -1,3 +1,4 @@
+<a name="dericts"></a>
 <div class="my-container">
 	<div class="df-napravlenia">
 		<h3>наши направления</h3>
