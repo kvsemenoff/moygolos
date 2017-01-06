@@ -17,31 +17,31 @@
 	<center>
 		<div class="dc-container">
 		    <div class="dc-box">
-				<div >
+				<div class="for_photo">
 				    <img class="dc-photo" src="img/dc-how-photo2.jpg">
 				</div>
 
-				<div>
+				<div class="for_photo">
 				    <img class="dc-photo" src="img/dc-how-photo3.jpg">
 				</div>
 
-				<div>
+				<div class="for_photo">
 				    <img class="dc-photo" src="img/dc-how-photo4.jpg">
 				</div>
 
-				<div>
+				<div class="for_photo">
 				    <img class="dc-photo" src="img/dc-how-photo5.jpg">
 				</div>
 
-				<div>
+				<div class="for_photo">
 				    <img class="dc-photo" src="img/dc-how-photo6.jpg">
 				</div>
 
-				<div>
+				<div class="for_photo">
 				    <img class="dc-photo" src="img/dc-how-photo7.jpg">
 				</div>
 
-				<div>
+				<div class="for_photo">
 				    <img class="dc-photo" src="img/dc-how-photo8.jpg">
 				</div>
 
@@ -76,9 +76,9 @@
 
 <script>
     $(document).ready(function() {
-        $(".dc-photo").click(
+        $(".for_photo").click(
         	function() {
-                $('.dc-main-photo').html('<img src="' + $(this).attr('src') + '" width="100%" height="40%" />');
+                $('.dc-main-photo').html('<img src="' + $(this).children().attr('src') + '" width="100%" height="40%" />');
         	}
         );
     });
