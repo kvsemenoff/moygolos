@@ -22,9 +22,9 @@
 							Суббота с 12:00 до 14:00<br>
 							Стоимость курса: <span>5 500 руб.</span><br>
 							Запишитесь и получите скидку  <span class="dd-blue">500руб.</span></span>
-						</div>
 					</div>
 				</div>
+			</div>
 				<div class="dd-prep">
 					<img class="img-responsive" src="img/p2.jpg" alt="">
 					<div class="dd-prep-txt">
@@ -152,6 +152,7 @@
 						</div>
 					</div>
 				</div>
+			</div>	
 
 				
 			<section class="dd-prepods">
