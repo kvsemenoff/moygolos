@@ -153,6 +153,51 @@ $(document).ready(function(){
         }
         return false;
     });
+    $(".form3").submit(function() { 
+        var tel = $(this).find('input[name="phone"]');
+        var empty = false;
+        if (tel.val() == ""){
+            empty = true;
+        }
+        if (empty == true){
+            tel.addClass("error-input");
+            tel.focus();
+        }else{
+            var form_data = $(this).serialize(); 
+            $.ajax({
+                type: "POST", 
+                url: "/sendmessage.php", 
+                data: form_data,
+                success: function() {
+                    cleanTnanks(this);
+                }
+            });
+        }
+        return false;
+    });
+    $(".form5").submit(function() { 
+        var tel = $(this).find('input[name="phone"]');
+        var empty = false;
+        if (tel.val() == ""){
+            empty = true;
+        }
+        if (empty == true){
+            tel.addClass("error-input");
+            tel.focus();
+        }else{
+            var form_data = $(this).serialize(); 
+            $.ajax({
+                type: "POST", 
+                url: "/sendmessage.php", 
+                data: form_data,
+                success: function() {
+                    cleanTnanks(this);
+                }
+            });
+        }
+        return false;
+    });
+    
     function cleanTnanks(form){
         $('input[type="text"]').removeClass("error-input");
         $("input[type=text], textarea").val("");
