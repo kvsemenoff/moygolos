@@ -169,8 +169,11 @@ font-family: "lato-heavy";
 			// outline:1px solid red;
 			padding:21px 0;
 			text-align: center;
+			width:300px;
+			margin:0 auto;
 		
 		}
+
 		// .db-block-two{
 		// 	// outline:1px solid red;
 		// 	margin:0 auto;
@@ -403,11 +406,12 @@ font-family: "lato-heavy";
 			// outline:1px solid red;
 		}
 		.db-block-one{
+			
 			// outline:1px solid red;
 			    padding-left: 16px;
 			// float:left;
 			// outline: 1px solid red;
-			width: 510px;
+			width: 510px !important;
 			margin:0 auto;
 		}
 		// .db-block-two{
