@@ -1,3 +1,4 @@
+<a name="results"></a>
 <section class="db-how-result">
 	<div class="container">
 		<div class="row">
