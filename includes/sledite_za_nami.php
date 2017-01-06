@@ -13,9 +13,9 @@
 				</div>
 			
 			
-				<div class="db-block-two">
+				<!-- <div class="db-block-two">
 		<img src="../img/db-instagram.png" alt="instargram"  class="img-responsive">
-				</div>
+				</div> -->
 				<div class="clearfix"></div>
 			</div>
 </section>
