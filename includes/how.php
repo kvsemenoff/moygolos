@@ -18,33 +18,68 @@
 		<div class="dc-container">
 		    <div class="dc-box">
 				<div class="for_photo">
-				    <img class="dc-photo" src="img/dc-how-photo2.jpg">
+				    <img class="dc-photo" src="img/1.jpg">
 				</div>
 
 				<div class="for_photo">
-				    <img class="dc-photo" src="img/dc-how-photo3.jpg">
+				    <img class="dc-photo" src="img/2.jpg">
 				</div>
 
 				<div class="for_photo">
-				    <img class="dc-photo" src="img/dc-how-photo4.jpg">
+				    <img class="dc-photo" src="img/3.jpg">
 				</div>
 
 				<div class="for_photo">
-				    <img class="dc-photo" src="img/dc-how-photo5.jpg">
+				    <img class="dc-photo" src="img/4.jpg">
 				</div>
 
 				<div class="for_photo">
-				    <img class="dc-photo" src="img/dc-how-photo6.jpg">
+				    <img class="dc-photo" src="img/5.jpg">
 				</div>
 
 				<div class="for_photo">
-				    <img class="dc-photo" src="img/dc-how-photo7.jpg">
+				    <img class="dc-photo" src="img/6.jpg">
 				</div>
 
 				<div class="for_photo">
-				    <img class="dc-photo" src="img/dc-how-photo8.jpg">
+				    <img class="dc-photo" src="img/7.jpg">
 				</div>
 
+				<div class="for_photo">
+				    <img class="dc-photo" src="img/8.jpg">
+				</div>
+
+				<div class="for_photo">
+				    <img class="dc-photo" src="img/9.jpg">
+				</div>
+
+				<div class="for_photo">
+				    <img class="dc-photo" src="img/10.jpg">
+				</div>
+
+				<div class="for_photo">
+				    <img class="dc-photo" src="img/11.jpg">
+				</div>
+
+				<div class="for_photo">
+				    <img class="dc-photo" src="img/12.jpg">
+				</div>
+
+				<div class="for_photo">
+				    <img class="dc-photo" src="img/13.jpg">
+				</div>
+
+				<div class="for_photo">
+				    <img class="dc-photo" src="img/14.jpg">
+				</div>
+
+				<div class="for_photo">
+				    <img class="dc-photo" src="img/15.jpg">
+				</div>
+
+				<div class="for_photo">
+				    <img class="dc-photo" src="img/16.jpg">
+				</div>
 			</div>
 		</div>
 	</center>
