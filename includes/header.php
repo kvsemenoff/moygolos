@@ -1,15 +1,16 @@
+<a name="main"></a>
 <section class="dd-header-wrap">
 	<div class="dd-menu-wrap ">
 		<div class="dd-menu-container">
 			<ul class="dd-nav hidden-xs hidden-sm">
-				<li><a href="#" class="dd-borders">Главная</a></li>
-				<li><a href="#" class="dd-borders">Направления</a></li>
-				<li><a href="#" class="dd-borders">Преподаватели</a></li>
-				<li><a href="#" class="dd-borders">Фото с занятий</a></li>
-				<li><a href="#" class="dd-borders">Результаты</a></li>
-				<li><a href="#" class="dd-borders">Расписание<br> и стоимость </a></li>
-				<li><a href="#" class="dd-borders">Отзывы</a></li>
-				<li><a href="#" class="dd-borders">Контакты</a></li>
+				<li><a href="#main" class="dd-borders">Главная</a></li>
+				<li><a href="#dericts" class="dd-borders">Направления</a></li>
+				<li><a href="#teaher" class="dd-borders">Преподаватели</a></li>
+				<li><a href="#foto" class="dd-borders">Фото с занятий</a></li>
+				<li><a href="#results" class="dd-borders">Результаты</a></li>
+				<li><a href="#schedule" class="dd-borders">Расписание<br> и стоимость </a></li>
+				<li><a href="#testimonials" class="dd-borders">Отзывы</a></li>
+				<li><a href="#contacts" class="dd-borders">Контакты</a></li>
 			</ul>
 		</div>
 		
