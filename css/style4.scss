@@ -133,7 +133,7 @@ a:hover{
 			padding-left: 30px;
 			span{
 				font-size: 23px;
-				  font-family: "MuseoSansCyrl300";
+				font-family: "MuseoSansCyrl300";
 				font-weight: 400;
 				color:#fff;
 				line-height: 49px;
@@ -161,6 +161,10 @@ a:hover{
 			}
 			a:hover{
 				background: #fde841;
+				color:#383838;
+			}
+			a:active{
+				background:#FECC02;
 				color:#383838;
 			}
 		}
@@ -287,6 +291,13 @@ a:hover{
 				text-transform: uppercase;
 				font-family: "MuseoSansCyrl500";
 				color: #383838;
+				transition:0.7s;
+			}
+			.dd-sub:hover{
+				background:#FECC02;
+			}
+			.dd-sub:active{
+				background:#FFA700;
 			}
 		}
 	}
@@ -451,6 +462,11 @@ a:hover{
 		background: #fde841;
 		text-decoration: none;
 	}
+	a:active{
+		color:black;
+		background:#FECC02;
+		text-decoration: none;
+	}
 }
 
 /* Стили при фиксации меню
@@ -524,6 +540,13 @@ a:hover{
 					font-family: "MuseoSansCyrl500";
 					font-size: 18px;
 					color: #383838;
+					transition:0.7s;
+				}
+				.dd-prep-button:hover{
+					background:#FECC02;
+				}
+				.dd-prep-button:active{
+					background:#FFA700;
 				}
 			}
 			.dd-button-span{
@@ -627,21 +650,21 @@ a:hover{
 	position:absolute;
 	left:0;  
 	top:0;
-    display:none;
-    z-index:9998; 
-    border:none;
-    .form-wrap-main{
-        border:1px solid #FDE841;
-        background: rgba(#000000, 0.3);
-        border-radius:10px;
-        padding: 20px;
-        text-align: center;
-        .form-title, .dd-form-txt{
+	display:none;
+	z-index:9998; 
+	border:none;
+	.form-wrap-main{
+		border:1px solid #FDE841;
+		background: rgba(#000000, 0.3);
+		border-radius:10px;
+		padding: 20px;
+		text-align: center;
+		.form-title, .dd-form-txt{
 			color:#fff;
 			font-family: "MuseoSansCyrl500";
 			font-size: 20px;
-        }
-        .dd-input-wrap{
+		}
+		.dd-input-wrap{
 			.my-input{
 				text-align: center;
 				height: 46px;
@@ -652,8 +675,8 @@ a:hover{
 				font-family: "MuseoSansCyrl300";
 				margin-bottom: 20px;
 			}
-        }
-        .sub{
+		}
+		.sub{
 			background: #FDE841;
 			font-family: "MuseoSansCyrl500";
 			font-weight: bold;
@@ -661,12 +684,16 @@ a:hover{
 			border-radius:7px;
 			border:none;
 			padding: 10px 20px;
-        }
-    }
-    .dd-close{
-    	width: 30px;
-    	height: 30px;
-    	color:#FDE841;
+			transition:0.7s;
+		}
+		.sub:hover{
+			background:#FECC02;
+		}
+	}
+	.dd-close{
+		width: 30px;
+		height: 30px;
+		color:#FDE841;
     	// background: red;
     	// background:url(../img/kres.png) #98BE28 no-repeat center;
     	position:absolute;
