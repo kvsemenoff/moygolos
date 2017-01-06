@@ -34,7 +34,7 @@
 	<?php require_once('includes/two.php'); ?>
 	<?php require_once('includes/napravlenia.php'); ?>
 	<?php require_once('includes/our-dating.php'); ?>
-
+	<?php require_once('includes/vistuplenie.php'); ?>
 	<?php require_once('includes/want_to_you.php'); ?>
 
 	<?php require_once('includes/schedule.php'); ?>
@@ -42,7 +42,7 @@
 	<?php require_once('includes/price.php'); ?>
 	<?php require_once('includes/testimonials.php'); ?>
 	<?php require_once('includes/sledite_za_nami.php'); ?>
-	<?php require_once('includes/vistuplenie.php'); ?>
+	>
 	<?php require_once('includes/prepods.php'); ?>
 	<?php require_once('includes/how.php'); ?>
 	<?php require_once('includes/map.php'); ?>
