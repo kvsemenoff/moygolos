@@ -1,8 +1,9 @@
+<div class="clearfix"></div>
 <div class="dc-want_to_you">
     <div class="container">
 	    <center>
 	        <h3 class="dc-want dc-white_color">
-	            <b>ХОЧУ К В ВАМ!</b>
+	            <b>ХОЧУ К ВАМ!</b>
 	        </h3>
 	    </center>
 
