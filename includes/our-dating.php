@@ -1,4 +1,4 @@
-
+<div class="df-bg-dating">
 <div class="my-container">
 	<div class="df-dating">
 		<h3>Давайте знакомиться</h3>
@@ -58,4 +58,5 @@
 		</div>
 		<div class="clear"></div>
 	</div>	
+</div>
 </div>

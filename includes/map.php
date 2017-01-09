@@ -29,8 +29,23 @@
  
 <script type="text/javascript">
  ymaps.ready(function () {
+    var MIN_WIDTH = 600;
+    var MIN_HEIGHT = 400;
+
+    var width = $(window).width();
+    var height = $(window).height();
+
+    var coords = [56.824617, 60.621011];
+
+    console.log(width, height);
+
+    // Скрыть большую таблицу при маленьком экране
+    if (width < MIN_WIDTH || height < MIN_HEIGHT) {
+        coords = [56.824423, 60.618930];
+    }
+
     var myMap = new ymaps.Map('map', {
-            center: [56.824617, 60.621011],
+            center: coords,
             zoom: 17
         }, {
             searchControlProvider: 'yandex#search'

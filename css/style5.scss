@@ -42,8 +42,8 @@
 				margin: 0 auto;		
 				position: absolute;						
 				bottom: 0;
-				left: 50%;
-				transform:translate(-50%, 0);
+				// left: 50%;
+				// transform:translate(-50%, -50%);
 				font-size: 22px;
 				color:#fff;				
 				text-transform: uppercase;	
@@ -73,8 +73,10 @@
 			border-radius: 10px;		
 			position: absolute;
 			top: 41%;
-			left: 50%;
-			transform:translate(-50%, -59%);
+			left: 0;
+			right: 0;
+			// left: 50%;
+			// transform:translate(-50%, -59%);
 			text-align: center;
 			margin: 0 auto;
 			z-index: 100;
@@ -119,7 +121,8 @@
 	display: block;
 	text-align: center;	
 	div{
-		width: 302px;
+		max-width: 302px;
+		width: 100%;
 		height: 183px;
 		color:#fff;
 		display: inline-block;
@@ -172,7 +175,11 @@
 
 
 
-
+.df-bg-dating{
+	background-image: url("../img/df-bg-our-dating.png");
+	background-repeat: no-repeat;	
+	background-position: top 150px center;
+}
 .df-dating{
 	padding: 25px 0;
 	text-align: center;
@@ -227,15 +234,16 @@
             }  
             div a:hover:after{
                 content:"";
-                position: absolute;
+                position: absolute;                
+                margin: 0 auto;
                 width: 30px;
-                height: 30px;
-                left:50%;
+                height: 30px;          
+                left: 0;
+                right:0;               
                 top:50%;
                 background: url("../img/df-plus.png") no-repeat left center;
-                z-index: 11;
-                left: 50%;
-                transform: translate(-50%, -50%);
+                z-index: 11;                
+                transform: translate(0%, -50%);
             }
 		}
 	}
@@ -350,6 +358,13 @@
 			display: inline-block;
 			border-radius: 11px;
 			margin-top: 15px;
+			transition: 0.7s;
+			-moz-transition: 0.7s;
+			-webkit-transition: 0.7s;
+		}
+		a:hover{
+			 background: #FECC02;
+
 		}
 	}
 }
